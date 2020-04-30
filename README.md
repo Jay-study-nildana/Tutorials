@@ -25,6 +25,6 @@ This code is provided as is without any warranties. It's primarily meant for our
 
 Our company name is Suvashna. We are a small software training and development based out of Hyderbad and Mysore, India. 
 
-Learn more about us here - https://suvashna.com
+Learn more about us here - [Suvashna Training and Development](https://suvashna.com)
 
 Learn more about our Founder and Chief Developer here - [Jay](http://thechalakas.com)

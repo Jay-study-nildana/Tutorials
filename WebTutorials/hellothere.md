@@ -1,15 +1,6 @@
-# Tutorials - Suvashna
+# Hello There
 
-contains the companion text books and tutorials of our company offerings
-
-* Virtual Classroom - Go here - [Virtual Classroom](https://flipgrid.com/suvashnawebbasic)
-* Web Programming - Go here - [Web Tutorials](WebTutorials)
-
-# work in progress
-
-This is still a work in progress. But, please, feel free to look around. 
-
-You can also contribute if you wish.
+Welcome to the very first chapter of our web tutorial. This is just a quick note to get you started. Hope you find this textbook useful. 
 
 # GLOBAL TAGS USED
 

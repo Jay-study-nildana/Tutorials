@@ -38,7 +38,7 @@ If you dont want to use CodePen, then, we would recommend the following tools th
 
 # Code Repositories
 
-* [suvashna-template-for-tutorials](../WebCode/suvashna-template-for-tutorials)
+* [suvashna-template-for-tutorials](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
 
 # Packages Used 
 

@@ -24,6 +24,7 @@ If you dont want to use CodePen, then, we would recommend the following tools th
 # Video Links
 
 * How to use CodePen? Our Video here - [Hello World For Coding – Developer Tools](https://youtu.be/icW_Qv0xyTc)
+* How did we build our template using bootstrap and codepen? - [Building Template in CodePen Using Bootstrap](https://youtu.be/CNW-PET96S8)
 
 # Podcast Links
 
@@ -31,7 +32,7 @@ If you dont want to use CodePen, then, we would recommend the following tools th
 
 # Reference Materials Used 
 
-* [notyetupdated](Link)
+* [sticky footer from bootstrap used in template](https://getbootstrap.com/docs/4.4/examples/sticky-footer/)
 * [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)

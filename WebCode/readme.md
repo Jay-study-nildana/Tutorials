@@ -1,42 +1,6 @@
-# ChapterTitleandIntro
+# Web Code 
 
-LetPutSomeStuffHere.
-
-# CodePen Links
-
-* [notyetupdated](Link)
-
-# Video Links
-
-* [notyetupdated](Link)
-
-# Podcast Links
-
-* [notyetupdated](Link)
-
-# Reference Materials Used 
-
-* [notyetupdated](Link)
-* [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
-* [W3 Schools](https://www.w3schools.com)
-* [Get Coding!](https://getcodingkids.com/missions/)
-
-# Code Repositories
-
-* [notyetupdated](Link)
-
-# Packages Used 
-
-* [notyetupdated](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
-
-# TRIVIA 
-
-* sure, lets put some trivia here.
-* and some more, eh?
+All our example code will come here. 
 
 # GLOBAL TAGS USED
 

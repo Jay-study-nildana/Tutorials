@@ -16,8 +16,6 @@ You can also contribute if you wish.
     1. [Hello There](hellothere.md)
     1. [What You Will Learn - The Endgame](endgame.md)
     1. [Lets Start With Your Developer Tools](developertools.md)
-    1. [Why CodePen](placeholder.md)
-    1. [Benefits of Visual Studio Code and Node JS Local Server](placeholder.md)
     1. [HelloWorld - With Bootstrap - CodePen](placeholder.md)
     1. [HelloWorld - With Bootstrap - Visual Studio Code](placeholder.md)
     1. [JustPlaceHolder](placeholder.md)
@@ -63,7 +61,9 @@ You can also contribute if you wish.
 1. Building a Full Web App
     1. [Lets do this](placeholder.md)
     1. [JustPlaceHolder](placeholder.md)                    
-1. References and Notes
+1. Notes and Developer Tips and Other Things
+    1. [Why CodePen](whycodepen.md)
+    1. [Benefits of Visual Studio Code and Node JS Local Server](placeholder.md)
     1. [JustPlaceHolder](placeholder.md)
     1. [JustPlaceHolder](placeholder.md)
 

@@ -4,7 +4,7 @@ Web Programming Tutorials, find them here.
 
 Virtual Classroom - Go here - [Virtual Classroom](https://flipgrid.com/suvashnawebbasic) 
 
-Work Diary Timeline and Other Updates Linked to Dates - [Work Diary](https://flipgrid.com/suvashnawebbasic)
+Work Diary Timeline and Other Updates Linked to Dates - [Work Diary](workdiary.md)
 
 # work in progress
 

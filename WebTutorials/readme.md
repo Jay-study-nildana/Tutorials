@@ -1,10 +1,12 @@
 # Tutorials - Suvashna - Web Programming
 
-Web Programming Tutorials, find them here.
+Hello and Welcome. Scroll below for more details.
 
-Virtual Classroom - Go here - [Virtual Classroom](https://flipgrid.com/suvashnawebbasic) 
-
-Work Diary Timeline and Other Updates Linked to Dates - [Work Diary](workdiary.md)
+* Virtual Classroom - Go here - [Virtual Classroom](https://flipgrid.com/suvashnawebbasic) 
+* Work Diary Timeline and Other Updates Linked to Dates - [Work Diary](workdiary.md)
+* While practising, you will need some ready to use content and images. find images here - [images](OtherStuff/sampleimages). find content here - [content](OtherStuff/samplecontent)
+* template to use for visual studio code - [vs code template](WebCode/suvashna-template-for-tutorials/src)
+* template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
 
 # work in progress
 
@@ -19,7 +21,8 @@ You can also contribute if you wish.
     1. [What You Will Learn - The Endgame](endgame.md)
     1. [Lets Start With Your Developer Tools](developertools.md)
 1. The Basics
-    1. [The Basics - Tags - Image and Links and Folders and Files](placeholder.md)(notreadyyet)
+    1. [The Basics - Folders and Files](foldersandfiles.md)(inprogress)
+    1. [The Basics - Tags - Image and Links](basichtmltags.md)(inprogress)
     1. [The Basics - CSS - Styling](placeholder.md)(notreadyyet)
     1. [The Basics - JavaScript - Making Things Work](placeholder.md)(notreadyyet)
     1. [The Basics - Azure Deploying - FTP and Filezilla](placeholder.md)(notreadyyet)

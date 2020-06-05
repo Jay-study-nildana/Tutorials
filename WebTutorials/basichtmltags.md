@@ -45,7 +45,8 @@ Most of the above is self explanatory.
 
 # Code Repositories
 
-* [basic-html-tags](../WebCode/basic-html-tags/)
+* [basic-html-tags](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/basic-html-tags/basic-html-tags) 
+* [basic-html-tags - to use from repository](../WebCode/basic-html-tags/) 
 
 # Packages Used 
 

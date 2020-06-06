@@ -58,7 +58,7 @@ You can also contribute if you wish.
     1. [Delete of API](placeholder.md)(notreadyyet)
     1. [JustPlaceHolder](placeholder.md)(notreadyyet)            
 1. Building a Full Web App
-    1. [Lets do this](placeholder.md)(notreadyyet)
+    1. [Lets do this](fullwebapp.md)(inprogress)
     1. [JustPlaceHolder](placeholder.md)(notreadyyet)                    
 1. Notes and Developer Tips and Other Things
     1. [Why CodePen](whycodepen.md)

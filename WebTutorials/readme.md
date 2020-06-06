@@ -4,8 +4,8 @@ Hello and Welcome. Scroll below for more details.
 
 * Virtual Classroom - Go here - [Virtual Classroom](https://flipgrid.com/suvashnawebbasic) 
 * Work Diary Timeline and Other Updates Linked to Dates - [Work Diary](workdiary.md)
-* While practising, you will need some ready to use content and images. find images here - [images](OtherStuff/sampleimages). find content here - [content](OtherStuff/samplecontent)
-* template to use for visual studio code - [vs code template](WebCode/suvashna-template-for-tutorials/src)
+* While practising, you will need some ready to use content and images. find images here - [images](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/OtherStuff/sampleimages). find content here - [content](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/OtherStuff/samplecontent)
+* template to use for visual studio code - [vs code template](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
 * template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
 
 # work in progress

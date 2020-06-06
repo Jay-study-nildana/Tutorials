@@ -27,8 +27,8 @@ You can also contribute if you wish.
     1. [The Basics - JavaScript - Making Things Work](basicjs.md)(inprogress)
     1. [The Basics - Azure Deploying - FTP and Filezilla](basicazureftpdeploy.md)(inprogress)
 1. HTML - Deep Dive
-    1. [Tables](tablestuff.md)(notreadyyet)
-    1. [Web Forms](placeholder.md)(notreadyyet)
+    1. [Tables](tablestuff.md)(inprogress)
+    1. [Web Forms](webforms.md)(inprogress)
 1. CSS - Deep Dive
     1. [Font, Color, Size and Spacing](placeholder.md)(notreadyyet)
     1. [Cascade, Inheritance and Selector Types](placeholder.md)(notreadyyet)

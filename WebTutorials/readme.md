@@ -24,9 +24,8 @@ You can also contribute if you wish.
     1. [The Basics - Folders and Files](foldersandfiles.md)(inprogress)
     1. [The Basics - Tags - Image and Links](basichtmltags.md)(inprogress)
     1. [The Basics - CSS - Styling](basiccss.md)(inprogress)
-    1. [The Basics - JavaScript - Making Things Work](placeholder.md)(notreadyyet)
-    1. [The Basics - Azure Deploying - FTP and Filezilla](placeholder.md)(notreadyyet)
-    1. [JustPlaceHolder](placeholder.md)(notreadyyet)
+    1. [The Basics - JavaScript - Making Things Work](basicjs.md)(inprogress)
+    1. [The Basics - Azure Deploying - FTP and Filezilla](basicazureftpdeploy.md)(inprogress)
 1. HTML - Deep Dive
     1. [Syntax and Concepts and Hyperlinks and Structure](placeholder.md)(notreadyyet)
     1. [Embedding Audio, Video](placeholder.md)(notreadyyet)

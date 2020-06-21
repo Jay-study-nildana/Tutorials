@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>template - Bari Basics Programming</title>
+    <title>test service - Bari Basics Programming</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
 
@@ -24,10 +24,29 @@
           <!-- <h1 class="h3 mb-3 font-weight-normal">project wt</h1> -->
           <h1 class="h3 mb-3 font-weight-normal">sample web app</h1> 
         </div>
-        <div id="loadinganimation">
-            <p>...template</p>
+        <hr>
+        <div>
+            <p  id="pageloadedtokencheck">...loading</p>
         </div>
+        <hr>
+        <div>
+            <p>this button does a test check. to see if the API server is working. also, this checks if the web app is working in terms of javascript test</p>
+            <p>works without token or signing in</p>
+            <button id = "buttonTestService" class="btn btn-lg btn-primary btn-block" onclick="buttonTestService()" >Test Service - Without Token</button>          
+        </div>        
         <hr>     
+        <div>
+          <button id = "buttonTestServiceAuthorized" class="btn btn-lg btn-primary btn-block" onclick="buttonTestServiceAuthorized()" >Test Service - Token Based</button>  
+        </div>    
+        <hr>  
+        <div>
+          <button id = "buttonTestServiceUserDetails" class="btn btn-lg btn-primary btn-block" onclick="buttonTestServiceUserDetails()" >User Email - Token Based</button>  
+        </div>    
+        <hr>          
+        <div id="buttonTestServiceResults">
+
+        </div>  
+      <hr>             
         <div>
             <p class="mt-5 mb-3 text-muted"><a href="../index.html" >home</a></p>
             <p class="mt-5 mb-3 text-muted"><a href="http://thechalakas.com/" >contact</a></p>
@@ -38,6 +57,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="../scripts/commonfunctions.js"></script>
-    <script src="../scripts/template.js"></script>
+    <script src="../scripts/testservice.js"></script>
 </body>
 </html>

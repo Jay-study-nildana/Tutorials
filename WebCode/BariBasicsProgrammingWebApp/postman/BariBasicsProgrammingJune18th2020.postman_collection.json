@@ -159,14 +159,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{apiserverhost}}/api/HelloWorld/TestService",
+					"raw": "{{apiserverhost}}/api/HelloWorld/TestServiceAuthorized",
 					"host": [
 						"{{apiserverhost}}"
 					],
 					"path": [
 						"api",
 						"HelloWorld",
-						"TestService"
+						"TestServiceAuthorized"
 					]
 				}
 			},
@@ -458,13 +458,13 @@
 	],
 	"variable": [
 		{
-			"id": "b59cfc05-6c16-47ac-85df-1daa570bef4c",
+			"id": "63a13325-2362-4bf6-9109-4e712249ed07",
 			"key": "apiserverhost",
 			"value": "http://localhost:64674",
 			"type": "string"
 		},
 		{
-			"id": "000c97c1-21ad-44ad-a3ed-32d2e37b294d",
+			"id": "56b66b58-3414-425e-9858-e44beaadb7c5",
 			"key": "token",
 			"value": "KuFNvIvIteG5tRC-5b1AfQzmT4d6p0HNKH8iz203iX-9tStM5suxdqoZECxaeKnihO_e-1CfPmsAqPzkNivil-BqhYqFhDFzMfCQNcfwxuBizkO_Cd5sXr-Q7C6qXN2p0xd0Ml7mejAwiDu5_MB4jPXWYPZns6BkIbvE7uhaKN2wfCucclMxaHOkojQv4hA-MwZ-j69USeTH5Qe8HTBIXjmp5mewwWh8X1yqP6bfGuAxBtWbBf-KugR_LQ5Fra_A4pPqjMlWYuyHbyGWqfCTmkLox4KK91akrkDinemqQ1AQQwH_XLA8APD3RXKzb61o1G6MOHzj4bhbQo8F48n2mLK7eG_Cx9NkfVe3IpCQ0o87yFl2cxc6_HzxYW4ynUIZYr0nsPHXWn98Y59Y9snrj2krQL2jmj5w0NL1tbwnpP8oWzBYJVHsm8Cs5Uj3cWmM1HoXxRx5pZsmDbkjYDBFTk-grT1DwicCFMeT6dS6qDqc2jyixqyaT5aefmcVCKFc",
 			"type": "string"

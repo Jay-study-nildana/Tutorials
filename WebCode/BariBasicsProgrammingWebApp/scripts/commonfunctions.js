@@ -265,7 +265,12 @@ function removeToken()
 function getToken()
 {
     var setKey = "ProjectWTToken";
+    var notokenfoundmessage = "getToken - "+ "no token stored. you have to login";
     var tokentoreturn = localStorage.getItem(setKey);
+    if(tokentoreturn == null)
+    {
+        console.log(notokenfoundmessage);
+    }
     return tokentoreturn;
 }
 
@@ -474,3 +479,4 @@ function signoutcurrentresume()
     var logcloser="----leaving signoutcurrentresume----";
     console.log(logcloser);     
 }
+

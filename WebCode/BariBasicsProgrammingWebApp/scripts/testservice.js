@@ -178,7 +178,7 @@ async function buttonTestServiceUserDetails()
     if(response.status == 400)
     {
         console.log("unknown error - " + response.status);
-        TokenCheckFailed();
+        APICallFailed();
     }
     else if(response.status == 200)
     {
@@ -193,13 +193,14 @@ async function buttonTestServiceUserDetails()
             function(error)
             {
                 console.log(error);
-                TokenCheckFailed();
+                APICallFailed();
             }
         );
     }
     else
     {
         //some unknown error
+        APICallFailed();
     }
 
     var logcloser="----leaving buttonTestServiceUserDetails----";
@@ -319,6 +320,20 @@ function APICallSuccess()
     loaddisplay.innerText = messageafterloading;
 
     var logcloser="----leaving APICallSuccess----";
+    console.log(logcloser);  
+    DefaultMessage();   
+}
+
+function APICallFailed()
+{
+    var logopener="----entering APICallFailed----";
+    console.log(logopener);
+
+    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var messageafterloading = "API Call was a failure. try again or contact developer!"
+    loaddisplay.innerText = messageafterloading;
+
+    var logcloser="----leaving APICallFailed----";
     console.log(logcloser);  
     DefaultMessage();   
 }

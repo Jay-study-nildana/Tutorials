@@ -24,6 +24,12 @@ These are the things this web app focuses on
 
 * deploy as you would deploy a standard web app. Filezilla, Docker, CICD. Its up to you.
 
+# API server used
+
+As of now, the web consumes the API server currently deployed at - https://baribasicsapiserverjune21st2020.azurewebsites.net 
+
+If you are curious about seeing the code for the API server, you can get it here - https://github.com/Jay-study-nildana/ProjectWTPublicRepos/tree/master/ProjectCRUD
+
 # important note 
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.

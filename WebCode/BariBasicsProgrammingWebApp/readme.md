@@ -2,6 +2,8 @@
 
 This is a simple app that is used to demonstrate all the basic web app skills that were learnt in these basic web programming tutorials.
 
+You can see it in action here - https://baribasicswebappjune23rd2020.azurewebsites.net 
+
 # what does the app do?
 
 Here is a list of things the app does, all the while, consuming the API mentioned below..
@@ -30,7 +32,7 @@ These are the things this web app focuses on
 # running instructions - local computer
 
 * assuming that you already have http-server node js package installed.
-* http-server
+* run http-server
 * visit the website, for example, like this, http://192.168.0.195:8080/index.html
 * if you forget index.html, some browsers might give error
 

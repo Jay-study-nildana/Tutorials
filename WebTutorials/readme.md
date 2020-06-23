@@ -7,6 +7,7 @@ Hello and Welcome. Scroll below for more details.
 * While practising, you will need some ready to use content and images. find images here - [images](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/OtherStuff/sampleimages). find content here - [content](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/OtherStuff/samplecontent)
 * template to use for visual studio code - [vs code template](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
 * template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
+* fully built demo - [web app](https://baribasicswebappjune23rd2020.azurewebsites.net) 
 
 # work in progress
 

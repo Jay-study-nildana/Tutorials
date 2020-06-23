@@ -218,93 +218,6 @@
 			"response": []
 		},
 		{
-			"name": "Get Resume",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{token}}",
-							"type": "string"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {}
-					}
-				},
-				"url": {
-					"raw": "{{apiserverhost}}/api/UserandResume/GetResume",
-					"host": [
-						"{{apiserverhost}}"
-					],
-					"path": [
-						"api",
-						"UserandResume",
-						"GetResume"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Update Name",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{token}}",
-							"type": "string"
-						}
-					]
-				},
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"FirstName\": \"Bruce\",\r\n  \"MiddleName\": \"Batman\",\r\n  \"LastName\": \"Wayne\"\r\n}",
-					"options": {
-						"raw": {}
-					}
-				},
-				"url": {
-					"raw": "{{apiserverhost}}/api/UserandResume/UpdateUserName",
-					"host": [
-						"{{apiserverhost}}"
-					],
-					"path": [
-						"api",
-						"UserandResume",
-						"UpdateUserName"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Update Education",
 			"request": {
 				"auth": {
@@ -327,7 +240,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\r\n        \"EducationTitle\": \"MBA\",\r\n        \"InstituationName\": \"Super Cool Management School\",\r\n        \"YearOfGraduation\": 3,\r\n        \"PassGrade\": \"Just Pass\",\r\n        \"EducationOtherNotes1\": \"Highest marks in nothing\",\r\n        \"EducationOtherNotes2\": \"Lowest marks in everything for sure\",\r\n        \"UniqueGuid\": \"2ff19802-19ff-4911-bbb7-b32164fa62e1\"\r\n    }",
+					"raw": "    {\r\n        \"EducationTitle\": \"MBA\",\r\n        \"InstituationName\": \"Super Cool Management School\",\r\n        \"YearOfGraduation\": 3,\r\n        \"PassGrade\": \"Just Pass\",\r\n        \"EducationOtherNotes1\": \"Highest marks in nothing\",\r\n        \"EducationOtherNotes2\": \"Lowest marks in everything for sure\",\r\n        \"UniqueGuid\": \"5fa15d86-c031-4e81-9e5c-559676deab21\"\r\n    }",
 					"options": {
 						"raw": {}
 					}
@@ -369,7 +282,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"EducationTitle\": \"MBA\",\r\n  \"InstituationName\": \"Super Cool Management School\",\r\n  \"YearOfGraduation\": 3,\r\n  \"PassGrade\": \"Just Pass\",\r\n  \"EducationOtherNotes1\": \"Highest marks in nothing\",\r\n  \"EducationOtherNotes2\": \"Lowest marks in everything\",\r\n  \"UniqueGuid\": \"sample string 7\"\r\n}",
+					"raw": "{\r\n  \"EducationTitle\": \"BE\",\r\n  \"InstituationName\": \"Insane Engineering College\",\r\n  \"YearOfGraduation\": 2006,\r\n  \"PassGrade\": \"Just Pass\",\r\n  \"EducationOtherNotes1\": \"Highest marks in nothing\",\r\n  \"EducationOtherNotes2\": \"Lowest marks in everything\",\r\n  \"UniqueGuid\": \"sample string 7\"\r\n}",
 					"options": {
 						"raw": {}
 					}
@@ -458,13 +371,13 @@
 	],
 	"variable": [
 		{
-			"id": "63a13325-2362-4bf6-9109-4e712249ed07",
+			"id": "2f6e0d72-fbdf-4d11-9a97-4498bd6734c6",
 			"key": "apiserverhost",
 			"value": "http://localhost:64674",
 			"type": "string"
 		},
 		{
-			"id": "56b66b58-3414-425e-9858-e44beaadb7c5",
+			"id": "a89e82fd-098e-430b-a756-eb26714fbee3",
 			"key": "token",
 			"value": "KuFNvIvIteG5tRC-5b1AfQzmT4d6p0HNKH8iz203iX-9tStM5suxdqoZECxaeKnihO_e-1CfPmsAqPzkNivil-BqhYqFhDFzMfCQNcfwxuBizkO_Cd5sXr-Q7C6qXN2p0xd0Ml7mejAwiDu5_MB4jPXWYPZns6BkIbvE7uhaKN2wfCucclMxaHOkojQv4hA-MwZ-j69USeTH5Qe8HTBIXjmp5mewwWh8X1yqP6bfGuAxBtWbBf-KugR_LQ5Fra_A4pPqjMlWYuyHbyGWqfCTmkLox4KK91akrkDinemqQ1AQQwH_XLA8APD3RXKzb61o1G6MOHzj4bhbQo8F48n2mLK7eG_Cx9NkfVe3IpCQ0o87yFl2cxc6_HzxYW4ynUIZYr0nsPHXWn98Y59Y9snrj2krQL2jmj5w0NL1tbwnpP8oWzBYJVHsm8Cs5Uj3cWmM1HoXxRx5pZsmDbkjYDBFTk-grT1DwicCFMeT6dS6qDqc2jyixqyaT5aefmcVCKFc",
 			"type": "string"

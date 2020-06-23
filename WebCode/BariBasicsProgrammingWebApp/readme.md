@@ -2,6 +2,20 @@
 
 This is a simple app that is used to demonstrate all the basic web app skills that were learnt in these basic web programming tutorials.
 
+# what does the app do?
+
+Here is a list of things the app does, all the while, consuming the API mentioned below..
+
+* register for a new accont
+* login to the account
+* add new entries of education
+* update existing entries of education
+* see the education entries already added
+
+# missing feature
+
+If you check the API code, linked below, you will notice that the API used currently does not allow deleting of entries. Hence, the web app, does not have any feature to delete entries related to education.
+
 # Primary Focus
 
 These are the things this web app focuses on

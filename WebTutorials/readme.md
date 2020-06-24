@@ -31,11 +31,12 @@ You can also contribute if you wish.
     1. [Tables](tablestuff.md)(inprogress)
     1. [Web Forms](webforms.md)(inprogress)
 1. CSS - Deep Dive
-    1. [Font, Color, Size and Spacing](placeholder.md)(notreadyyet)
-    1. [Cascade, Inheritance and Selector Types](placeholder.md)(notreadyyet)
-    1. [Text Styling](placeholder.md)(notreadyyet)
-    1. [Viewport and Layout and Content and Flexbox and Grids](placeholder.md)(notreadyyet)
+    1. [Font, Color, Size and Spacing](cssfontcolorsizespacing.md)(inprogress)
+    1. [Text Styling](textstyling.md)(inprogress)
+    1. [List Styling](liststyling.md)(inprogress)
+    1. [Viewport and Layout and Content and Flexbox and Grids](csslayout.md)(inprogress)
     1. [Discussion about CSS and Bootstrap](placeholder.md)(notreadyyet)
+    1. [Media Queries](mediaqueries.md)(inprogress)
     1. [JustPlaceHolder](placeholder.md)(notreadyyet)
 1. JavaScript - Deep Dive
     1. [Who is this Javascript](placeholder.md)(notreadyyet)
@@ -64,7 +65,9 @@ You can also contribute if you wish.
 1. Notes and Developer Tips and Other Things
     1. [Why CodePen](whycodepen.md)
     1. [Benefits of Visual Studio Code and Node JS Local Server](placeholder.md)(notreadyyet)
-    1. [What if you want to use Visual Studio Code instead of CodePen?](placeholder.md)(notreadyyet)
+    1. [What if you want to use Visual Studio Code instead of CodePen?](placeholder.md)
+    (notreadyyet)
+    1. [Why do we developers copy code so much?](placeholder.md)(notreadyyet)
     1. [JustPlaceHolder](placeholder.md)(notreadyyet)
     1. [JustPlaceHolder](placeholder.md)(notreadyyet)
 

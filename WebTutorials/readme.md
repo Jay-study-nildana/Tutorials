@@ -35,9 +35,7 @@ You can also contribute if you wish.
     1. [Text Styling](textstyling.md)(inprogress)
     1. [List Styling](liststyling.md)(inprogress)
     1. [Viewport and Layout and Content and Flexbox and Grids](csslayout.md)(inprogress)
-    1. [Discussion about CSS and Bootstrap](placeholder.md)(notreadyyet)
-    1. [Media Queries](mediaqueries.md)(inprogress)
-    1. [JustPlaceHolder](placeholder.md)(notreadyyet)
+    1. [Discussion about CSS and Bootstrap](cssandbootstrapdiscussion.md)(inprogress)
 1. JavaScript - Deep Dive
     1. [Who is this Javascript](placeholder.md)(notreadyyet)
     1. [Statements, Loops, Functions and Events](placeholder.md)(notreadyyet)

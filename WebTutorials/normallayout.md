@@ -1,15 +1,12 @@
-# CSS Layout
+# Normal Layout
 
-alright, this is a major topic and layout is where you will get lot of smashing foreheads and confusion. As always, i strongly recommend you use ready to use layouts, bootstrap templates and sample code. This is my personal advice.
+This is the normal layout. things are laid out, just one after another, as they are laid out in the HTML, one line after another without any modifications. 
 
-Layouts come in a lot of shapes and sizes. I am just going to list them here. If you dont already sense it, I personally dont like working with CSS. Prefering to use pre-built templates. Still, here is the list. 
-
-* [normal layout](normallayout.md)
-* [flexbox layout](Flexbox.md)
+As always, codepen has the details.
 
 # CodePen Links
 
-* [List Styling](https://codepen.io/jay-pancodu/pen/xxZrwdg)
+* [Normal Layout](https://codepen.io/jay-pancodu/pen/NWxgyBY)
 
 # Video Links
 
@@ -21,7 +18,7 @@ Layouts come in a lot of shapes and sizes. I am just going to list them here. If
 
 # Reference Materials Used 
 
-* [CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+* [Normal Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
 * [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)

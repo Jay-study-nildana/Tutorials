@@ -1,15 +1,21 @@
-# CSS Layout
+# Flexbox
 
-alright, this is a major topic and layout is where you will get lot of smashing foreheads and confusion. As always, i strongly recommend you use ready to use layouts, bootstrap templates and sample code. This is my personal advice.
+Flexbox is what you will probably end up using almost all the time, of all the different types of layout options available in CSS. 
 
-Layouts come in a lot of shapes and sizes. I am just going to list them here. If you dont already sense it, I personally dont like working with CSS. Prefering to use pre-built templates. Still, here is the list. 
+You know what? I thought I will go into detail on this but, I dont want to do this. I mean, CSS stuff. Do what I would normally do, if I really have to do CSS.
 
-* [normal layout](normallayout.md)
-* [flexbox layout](Flexbox.md)
+* know the basics. that is already covered in the chapters till now. 
+* go to the bootstrap website and use all the ready made code blocks and layouts that are built by people who are far better than you and me at CSS
+* buy a bootstrap template. It will cost you anywhere from 10 $ to $100 and you get easy developer access
+* just hire a CSS expert and you focus on the rest of the code building. 
+* head over to stack overflow. CSS has been ripped apart and put together for decades.
+* if you really want to, check out the below linked Firefox MDN learning links.
+
+Again, sorry about this, but CSS just never interested me. They are simply too many things going on in CSS since the web was created. 
 
 # CodePen Links
 
-* [List Styling](https://codepen.io/jay-pancodu/pen/xxZrwdg)
+* [Flexbox](https://codepen.io/jay-pancodu/pen/mdVwXgw)
 
 # Video Links
 
@@ -21,7 +27,7 @@ Layouts come in a lot of shapes and sizes. I am just going to list them here. If
 
 # Reference Materials Used 
 
-* [CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+* [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 * [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)

@@ -72,10 +72,6 @@ As always, look at the linked codepen below, to see how this works.
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
 
-# About Us
+# About
 
-Our company name is Suvashna. We are a small software training and development based out of Hyderbad and Mysore, India. 
-
-Learn more about us here - [Suvashna Training and Development](https://suvashna.com)
-
-Learn more about our Founder and Chief Developer here - [Jay](http://thechalakas.com)
+Owner and Developer of this project - [Jay](http://thechalakas.com)

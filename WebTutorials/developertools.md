@@ -39,7 +39,7 @@ If you dont want to use CodePen, then, we would recommend the following tools th
 
 # Code Repositories
 
-* [suvashna-template-for-tutorials](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
+* [suvashna-template-for-tutorials](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
 
 # Packages Used 
 
@@ -64,10 +64,6 @@ If you dont want to use CodePen, then, we would recommend the following tools th
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
 
-# About Us
+# About
 
-Our company name is Suvashna. We are a small software training and development based out of Hyderbad and Mysore, India. 
-
-Learn more about us here - [Suvashna Training and Development](https://suvashna.com)
-
-Learn more about our Founder and Chief Developer here - [Jay](http://thechalakas.com)
+Owner and Developer of this project - [Jay](http://thechalakas.com)

@@ -84,7 +84,7 @@ As always, check the included codepen to see some code in action.
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/foldername/)
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/foldername/)
 * [coderepo - to use from repository](../WebCode/foldername/)
 
 # Packages Used 

@@ -40,7 +40,7 @@ Still, check the linked codepen below for some essential CSS usage.
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/basic-css) 
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/basic-css) 
 * [coderepo - to use from repository](../WebCode/basic-css/)
 
 # Packages Used 

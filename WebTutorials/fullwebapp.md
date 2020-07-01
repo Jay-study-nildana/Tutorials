@@ -48,7 +48,7 @@ That is the best way. If you dont have a second monitor or display, another opti
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/foldername/)
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/foldername/)
 * [coderepo - to use from repository](../WebCode/foldername/)
 
 # Packages Used 

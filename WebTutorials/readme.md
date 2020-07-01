@@ -1,11 +1,10 @@
-# Tutorials - Suvashna - Web Programming
+# Tutorials - Bari Basic - Web Programming
 
 Hello and Welcome. Scroll below for more details.
 
-* Virtual Classroom - Go here - [Virtual Classroom](https://flipgrid.com/suvashnawebbasic) 
 * Work Diary Timeline and Other Updates Linked to Dates - [Work Diary](workdiary.md)
-* While practising, you will need some ready to use content and images. find images here - [images](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/OtherStuff/sampleimages). find content here - [content](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/OtherStuff/samplecontent)
-* template to use for visual studio code - [vs code template](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
+* While practising, you will need some ready to use content and images. find images here - [images](https://github.com/Jay-study-nildana/Tutorials/tree/master/OtherStuff/sampleimages). find content here - [content](https://github.com/Jay-study-nildana/Tutorials/tree/master/OtherStuff/samplecontent)
+* template to use for visual studio code - [vs code template](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
 * template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
 * fully built demo - [web app](https://baribasicswebappjune23rd2020.azurewebsites.net) 
 
@@ -85,10 +84,6 @@ You can also contribute if you wish.
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
 
-# About Us
+# About
 
-Our company name is Suvashna. We are a small software training and development based out of Hyderbad and Mysore, India. 
-
-Learn more about us here - [Suvashna Training and Development](https://suvashna.com)
-
-Learn more about our Founder and Chief Developer here - [Jay](http://thechalakas.com)
+Owner and Developer of this project - [Jay](http://thechalakas.com)

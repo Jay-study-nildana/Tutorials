@@ -46,7 +46,7 @@ As always, look at the linked codepen below, to see how this works.
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/javascript-basic/)
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/javascript-basic/)
 * [coderepo - to use from repository](../WebCode/javascript-basic/)
 
 # Packages Used 

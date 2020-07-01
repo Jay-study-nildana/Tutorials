@@ -30,7 +30,7 @@ This way, you allow bootstrap to do the heavy lifting of HTML content presentati
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/foldername/)
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/foldername/)
 * [coderepo - to use from repository](../WebCode/foldername/)
 
 # Packages Used 

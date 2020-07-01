@@ -34,7 +34,7 @@ as always, check the linked codepen to see a table in action.
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/table/)
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/table/)
 * [coderepo - to use from repository](../WebCode/table/)
 
 # Packages Used 

@@ -38,7 +38,7 @@ For this, you will just have to watch the video and see the action happen. We wi
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/foldername/)
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/foldername/)
 * [coderepo - to use from repository](../WebCode/foldername/)
 
 # Packages Used 

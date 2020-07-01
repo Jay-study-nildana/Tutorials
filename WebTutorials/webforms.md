@@ -50,7 +50,7 @@ The linked codepen has a simple form with some basic validation for you to check
 
 # Code Repositories
 
-* [coderepo](https://github.com/Suvashna-Training-and-Development/Tutorials/tree/master/WebCode/simple-form-with-validation/)
+* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/simple-form-with-validation/)
 * [coderepo - to use from repository](../WebCode/simple-form-with-validation/)
 
 # Packages Used 

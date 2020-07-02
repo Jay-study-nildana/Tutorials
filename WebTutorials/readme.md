@@ -8,6 +8,8 @@ Hello and Welcome. Scroll below for more details.
 * template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
 * fully built demo - [web app](https://baribasicswebappjune23rd2020.azurewebsites.net) 
 
+Of course, our main website, [Learning Hub](baribasic.com).
+
 # work in progress
 
 This is still a work in progress. But, please, feel free to look around. 
@@ -20,15 +22,16 @@ You can also contribute if you wish.
     1. [Hello There](hellothere.md)
     1. [What You Will Learn - The Endgame](endgame.md)
     1. [Lets Start With Your Developer Tools](developertools.md)
-    1. [My Developer Story - How did I Learn?](placeholder.md)(notreadyyet)    
-    1. [Is This Textbook For You?](placeholder.md)(notreadyyet)   
-    1. [Live Classes and Video Recordings Available](placeholder.md)(notreadyyet)     
+    1. [My Developer Story - How did I Learn?](DeveloperStory.md)(inprogress)    
+    1. [Is This Textbook For You?](textbookforyou.md)(inprogress)   
+    1. [Live Classes and Video Recordings Available](liveclassesandrecordings.md)(inprogress)     
 1. The Basics
-    1. [How To Use CodePen?](placeholder.md)(notreadyyet)
-    1. [How To Use Visual Studio Code?](placeholder.md)(notreadyyet)    
-    1. [Understand Relationship Between HTML, CSS and JS](placeholder.md)(notreadyyet)       
-    1. [Understand FrameWorks like jQuery and React JS and React Native](placeholder.md)(notreadyyet)    
-    1. [Java and JavaScript](placeholder.md)(notreadyyet)             
+    1. [How To Use CodePen?](howtocodepen.md)(inprogress)
+    1. [How To Use Visual Studio Code?](howtovscode.md)(inprogress)    
+    1. [Understand Relationship Between HTML, CSS and JS](Relationship.md)(inprogress)       
+    1. [Understand FrameWorks like jQuery and React JS and React Native](FrameWorks.md)(inprogress)    
+    1. [Java and JavaScript](JavaandJavaScript.md)(inprogress)             
+    1. [Typical HTML Page](typical.md)(inprogress)    
     1. [The Basics - Folders and Files](foldersandfiles.md)(inprogress)
     1. [The Basics - Tags - Image and Links](basichtmltags.md)(inprogress)
     1. [The Basics - CSS - Styling](basiccss.md)(inprogress)

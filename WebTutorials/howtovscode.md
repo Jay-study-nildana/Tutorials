@@ -1,6 +1,10 @@
-# ChapterTitleandIntro
+# How To Use Visual Studio Code?
 
-LetPutSomeStuffHere.
+Its easier to show this, than to write about this. 
+
+Head over to the classroom recordings, at our [YouTube channel](https://www.youtube.com/channel/UCJJVulg4J7POMdX0veuacXw), to see how to use CodePen.
+
+I will put a more specific, how to use video here, eventually. TODO
 
 # CodePen Links
 
@@ -16,7 +20,6 @@ LetPutSomeStuffHere.
 
 # Reference Materials Used 
 
-* [notyetupdated](Link)
 * [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)

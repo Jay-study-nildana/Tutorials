@@ -1,6 +1,24 @@
-# ChapterTitleandIntro
+# Typical HTML Page
 
-LetPutSomeStuffHere.
+The best way to understand everything that is in a typical HTML page (which is responsive), is to look at our [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
+
+At the outset, three tags will be present.
+
+* HTML - indicating HTML page is incoming to the browser.
+* HEAD - all the HEAD components go here. 
+* BODY - all the BODY components go here.
+
+Inside HEAD, you will most commonly find the following
+
+* META - indicate meta information about the web page such as character encoding, viewport and so on.
+* LINK - connecting to stylesheets used in the web page
+* TITLE - indicating the title of the web page. 
+
+Inside BODY, you will contain the main visual elements of the web page. all the HTML tags related to the actual DOM elements that are visible to the user will come here. Things like P tag, IMG tag, and every other tag. 
+
+All of them come in the BODY. 
+
+Further, at the end of the body (just before the closing tag) is where you will include the SCRIPT tag, where you will link to all your scripts. This will be external scripts to JavaScript libraries and your own script files that make your web app work.
 
 # CodePen Links
 

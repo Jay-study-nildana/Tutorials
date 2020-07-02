@@ -1,6 +1,20 @@
-# ChapterTitleandIntro
+# Is This Textbook For You?
 
-LetPutSomeStuffHere.
+Perhaps, this should have been the first chapter. 
+
+First, look at our demo app [here](https://baribasicswebappjune23rd2020.azurewebsites.net). The demo app, highlights the following essential concepts. 
+
+* responsive design - the web page adjusts its appearance depending on whether you are using the web app on a desktop screen or laptop screen or an iPhone or an Android phone. This magic is mostly made possible due to usage of Bootstrap and its ready to use code blocks and templates. 
+* essential navigation between simple web pages.
+* interact with an API server that gives out tokens and json data.
+* perform basic operations such as registering an account and acquiring authentication token
+* make authenticated calls to the API server to perfrom basic Create, Read, Update and Delete api endpoint calls.
+
+Now, if you can do that (just use the above web app), then, this textbook, our learning hub, is of no use to you. 
+
+But, if you are unable to build a web app (like the one linked above), which does the above things, then this tutorial and our learning hub is for you. 
+
+Good luck.
 
 # CodePen Links
 

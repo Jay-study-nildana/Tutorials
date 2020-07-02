@@ -1,6 +1,10 @@
-# ChapterTitleandIntro
+# Java and JavaScript
 
-LetPutSomeStuffHere.
+This is another question that keeps coming up. Are, Java and JavaScript, related. 
+
+The straight answer, is, no, they are not. 
+
+They just happen to have the same name, I mean, a part of the name. Other than not, they are doing their own thing in their own worlds. 
 
 # CodePen Links
 

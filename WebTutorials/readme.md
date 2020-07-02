@@ -8,7 +8,7 @@ Hello and Welcome. Scroll below for more details.
 * template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
 * fully built demo - [web app](https://baribasicswebappjune23rd2020.azurewebsites.net) 
 
-Of course, our main website, [Learning Hub](baribasic.com).
+Of course, our main website, [Learning Hub](http://baribasic.com).
 
 # work in progress
 

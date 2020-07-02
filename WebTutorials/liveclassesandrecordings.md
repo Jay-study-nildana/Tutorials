@@ -2,11 +2,11 @@
 
 In order to make this textbook even more useful, I am conducting (at the time of this writing), live classes on twitch.
 
-You check the schedule of classes on [Twitch Profile](twitch.tv/jaylive510), and of course, participate.
+You check the schedule of classes on [Twitch Profile](https://twitch.tv/jaylive510), and of course, participate.
 
 Further, recordings of the live classes are available on our [YouTube channel](https://www.youtube.com/channel/UCJJVulg4J7POMdX0veuacXw).
 
-As always, more information is available at our [Learning Hub](baribasic.com), and this textbook. 
+As always, more information is available at our [Learning Hub](http://baribasic.com), and this textbook. 
 
 # CodePen Links
 

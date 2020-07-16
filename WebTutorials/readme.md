@@ -1,4 +1,4 @@
-# Tutorials - Bari Basic - Web Programming
+# Tutorials - Bari Basic - Web Programming (Scroll down for Table of Contents)
 
 Hello and Welcome. Scroll below for more details.
 
@@ -8,7 +8,16 @@ Hello and Welcome. Scroll below for more details.
 * template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
 * fully built demo - [web app](https://baribasicswebappjune23rd2020.azurewebsites.net) 
 
-Of course, our main website, [Learning Hub](http://baribasic.com).
+# social media 
+
+* follow us on instagram  [here.](https://www.instagram.com/baribasic/) 
+* follow our youtube channel [here.](https://www.youtube.com/playlist?list=PL7SHzFbuSdW2XaNy-CGF764goJt-voqjm)
+* join and discuss with other students and the tutors on our discord channel [here](https://discord.gg/fGjbUbF)
+* visit our website [here](https://baribasic.com/)
+
+# contribute code and content
+
+* want to get involved in this open source textbook? [here is our github repository](https://github.com/Jay-study-nildana/Tutorials).
 
 # work in progress
 

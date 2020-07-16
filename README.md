@@ -1,15 +1,23 @@
 # Tutorials - Bari Basic
 
-contains the companion text books and tutorials
+contains the companion text books and tutorials.
 
-* Web Programming - Go here - [Learning Hub](http://baribasic.com)
 * Web Programming - Go here - [Web Tutorials](WebTutorials)
+
+# social media 
+
+* follow us on instagram  [here.](https://www.instagram.com/baribasic/) 
+* follow our youtube channel [here.](https://www.youtube.com/playlist?list=PL7SHzFbuSdW2XaNy-CGF764goJt-voqjm)
+* join and discuss with other students and the tutors on our discord channel [here](https://discord.gg/fGjbUbF)
+* visit our website [here](https://baribasic.com/)
+
+# contribute code and content
+
+* want to get involved in this open source textbook? [here is our github repository](https://github.com/Jay-study-nildana/Tutorials).
 
 # work in progress
 
 This is still a work in progress. But, please, feel free to look around. 
-
-You can also contribute if you wish.
 
 # GLOBAL TAGS USED
 

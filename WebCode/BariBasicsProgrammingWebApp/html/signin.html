@@ -19,50 +19,50 @@
 
   <body class="text-center" onload="pagehasloaded()">
     <div class="form-signin">
-      <!-- <img class="mb-4" src="assets/logosandstuff/bootstrap-solid.svg" alt="" width="72" height="72"> -->
-      <h1 class="h3 mb-3 font-weight-normal">Bari Basics Programming</h1>
-      <!-- <h1 class="h3 mb-3 font-weight-normal">project wt</h1> -->
-      <h1 class="h3 mb-3 font-weight-normal">sample web app</h1>
-    <div id="loadinganimation">
-      <p>loading...</p>
-    </div>
-
-    <div id="inputboxforemailandpassword">
-      <h1 class="h3 mb-3 font-weight-normal">sign in below</h1>
-      <hr>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-      <!-- <div class="checkbox mb-3">
-          <label>
-          <input type="checkbox" value="remember-me"> Remember me (NA)
-          </label>
-      </div> -->
-      <button id = "buttonsignin" class="btn btn-lg btn-primary btn-block" onclick="signin()" >Sign in</button>
-      <hr>
-    </div>
-    <div id = "statusmessageafterAPIcall" class="alert alert-danger" role="alert">
-    </div>
-    <div id = "taphomebelow" class="alert alert-light" role="alert">
-      tap/click 'home' button below to sign in.
-    </div>
-    <div id="ResumeSummary">
-      <div class="alert alert-light" role="alert">
-        <!-- <h4 class="alert-heading">ame</h4> -->
-        <p id="primaryemail">Aww yeah,</p>
-        <hr>
+      <div id="maintitlelines">
+        <h3 id = "maintitleline1" class="font-weight-normal">-</h3>
+        <h7 id = "maintitleline2" class="font-weight-normal">-</h7>
       </div>
 
-        <button type="button" class="btn btn-primary btn-sm" onclick="signout()">
-          sign out
-        </button>
-
-
+    <div id="inputboxforemailandpassword">
+      <!-- <h1 class="h3 mb-3 font-weight-normal">sign in below</h1> -->
+      <hr>      
+      <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <!-- <label for="inputPassword" class="sr-only">Password</label> -->
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <hr>
+    </div>
+    <div id="outboxforloginsuccess">
+      <!-- <h1 class="h3 mb-3 font-weight-normal">sign in below</h1> -->
+      <hr>      
+      <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
+      <div class="alert alert-primary" role="alert">
+        Hey!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        You have successfully signed in! Welcome back.
+      </div>
+      <hr>
+    </div>    
+    <div id="pageloadedtokencheck">
+      <p>loading...</p>
+    </div>    
+    <!-- <div id = "statusmessageafterAPIcall" class="alert alert-danger" role="alert">
+    </div> -->
+    <!-- <div id = "taphomebelow" class="alert alert-light" role="alert">
+      tap/click 'home' button below to sign in.
+    </div> -->
+    <div id="ResumeSummary">
+      <!-- <div class="alert alert-light" role="alert">
+        <h4 class="alert-heading">ame</h4>
+        <p id="primaryemail">---</p>
+        <hr>
+      </div> -->
       <div class="collapse" id="nameboxtoggle">
         <div class="alert alert-success" role="alert">
           <!-- <h4 class="alert-heading">ame</h4> -->
-          <p id="entirename">Aww yeah,</p>
+          <!-- <p id="entirename">Aww yeah,</p> -->
           <hr>
           <!-- <p class="mb-0">Update your name here</p>
           <hr> -->
@@ -79,18 +79,24 @@
       </div>
 
     </div>
+    <button id = "buttonsignin" class="btn btn-lg btn-primary btn-block" onclick="signin()" >
+      sign in
+    </button>    
+    <button id = "buttonsignout" class="btn btn-lg btn-primary btn-block" onclick="signout()">
+      sign out
+    </button>    
     <hr>
     <!-- TODO13   generate the footer dynamically in common functions so we can add new items at one go -->
-    <div>
-      <p class="mt-5 mb-3 text-muted"><a href="apiservicedemo.html" >API home</a> - <a href="registration.html" >register</a></p>
-      <p class="mt-5 mb-3 text-muted"><a href="../index.html" >web app home</a></p>
-      <p class="mt-5 mb-3 text-muted"><a href="http://thechalakas.com/" >contact</a></p>
+    <div id="bottomlinksfooter">
+      <p class="text-muted"><a href="apiservicedemo.html" >API home</a> | <a href="registration.html" >register</a></p>
+      <p class="text-muted"><a href="../index.html" >web app home</a> | <a href="http://thechalakas.com/" >contact</a></p>
+      <!-- <p class="text-muted"><a href="http://thechalakas.com/" >contact</a></p> -->
     </div>
 
 
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="../scripts/signin.js"></script>

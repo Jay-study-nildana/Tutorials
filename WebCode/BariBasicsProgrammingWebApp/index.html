@@ -16,12 +16,14 @@
     <!-- Custom styles for this template -->
     <link href="style/signin.css" rel="stylesheet">
   </head>
-  <body class="text-center">
+  <body class="text-center" onload="pagehasloadedcommonfunctions()">
 
       <form class="form-signin">
           <!-- <img class="mb-4" src="assets/logosandstuff/bootstrap-solid.svg" alt="" width="72" height="72">           -->
-          <h1 class="h3 mb-3 font-weight-normal">Bari Basics Programming</h1>
-          <h1 class="h3 mb-3 font-weight-normal">sample web app</h1>        
+          <div id="maintitlelines">
+            <h3 id = "maintitleline1" class="font-weight-normal">-</h3>
+            <h7 id = "maintitleline2" class="font-weight-normal">-</h7>
+          </div>       
           <hr> 
           <div class="alert alert-primary" role="alert">
             consume api <a href="html/apiservicedemo.html" 
@@ -47,7 +49,7 @@
           </div>          
           <hr> 
           <div class="alert alert-primary" role="alert">
-            want to learn how to build this? read our textbook, tutorials and more <a href="https://tutorials.suvashna.com/" 
+            want to learn how to build this? join our free online classroom here - <a href="https://baribasic.com/" 
             class="alert-link">here</a>
           </div>          
           <p class="mt-5 mb-3 text-muted">&copy; 1800-2069</p>
@@ -55,8 +57,9 @@
         </form>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../scripts/commonfunctions.js"></script>
 </body>
 </html>

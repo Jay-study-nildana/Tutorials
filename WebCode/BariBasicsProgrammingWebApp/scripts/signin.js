@@ -1,15 +1,19 @@
 
-//note : check registr
 
 function pagehasloaded()
 {
     var logopener="----entering pagehasloaded----";
     console.log(logopener);
 
-    hidetheloading();
-    var divtaphomebelow = 
-    document.getElementById("taphomebelow");
-    divtaphomebelow.style.display = 'none';
+    //first setup some UI elements
+    setuptitles();   
+    
+    DefaultMessage();
+
+    // hidetheloading();
+    // var divtaphomebelow = 
+    // document.getElementById("taphomebelow");
+    // divtaphomebelow.style.display = 'none';
    
     //check if local storage has a token.
     var getCurrentToken = getToken();
@@ -19,11 +23,13 @@ function pagehasloaded()
         console.log("You are already signed in");
         //send token and try to get the basic resume information.
         //hide the login page.
-        hidethelogin();
-        GetResumeSummary();
+        // hidethelogin();
+        // GetResumeSummary();\
+        hideorshowsigninsignoutbutton(1);
     }
     else
     {
+        hideorshowsigninsignoutbutton(2);
         console.log("You need to sign in below");
     }
 
@@ -52,54 +58,54 @@ async function signin()
 //grab the resume summary using the resume summary endpoint.
 //and in turn calls the display.
 
-async function GetResumeSummary()
-{
-    var logopener="----entering GetResumeSummary----";
-    console.log(logopener);
+// async function GetResumeSummary()
+// {
+//     var logopener="----entering GetResumeSummary----";
+//     console.log(logopener);
 
-    var baseUrl = returnCurrentBaseURL();
-    var endPoint = "api/UserandResume/GetResumeSummary";
-    var fullUrl = baseUrl + endPoint;
-    var getCurrentToken = getToken();
+//     var baseUrl = returnCurrentBaseURL();
+//     var endPoint = "api/UserandResume/GetResumeSummary";
+//     var fullUrl = baseUrl + endPoint;
+//     var getCurrentToken = getToken();
 
-    const response = await fetch(fullUrl,
-        {
-            method: 'GET',
-            headers:
-            {
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer '+getCurrentToken
-            }
-        }
-        );    
+//     const response = await fetch(fullUrl,
+//         {
+//             method: 'GET',
+//             headers:
+//             {
+//                 'Content-Type': 'application/json',
+//                 'Authorization': 'Bearer '+getCurrentToken
+//             }
+//         }
+//         );    
 
-    if(response.status == 400)
-    {
-        console.log("unknown error - " + response.status);
-    }        
-    else if(response.status == 200)
-    {
-        var responsejson = response.json();
-        responsejson.then(
-            function(result)
-            {
-                console.log(result);
-                showUserResumeSummary(result);
-            },
-            function(error)
-            {
-                console.log(error);
-            }
-        );
-    }
-    else
-    {
-        //some unknown error
-    }
+//     if(response.status == 400)
+//     {
+//         console.log("unknown error - " + response.status);
+//     }        
+//     else if(response.status == 200)
+//     {
+//         var responsejson = response.json();
+//         responsejson.then(
+//             function(result)
+//             {
+//                 console.log(result);
+//                 showUserResumeSummary(result);
+//             },
+//             function(error)
+//             {
+//                 console.log(error);
+//             }
+//         );
+//     }
+//     else
+//     {
+//         //some unknown error
+//     }
 
-    var logcloser="----leaving GetResumeSummary----";
-    console.log(logcloser);
-}
+//     var logcloser="----leaving GetResumeSummary----";
+//     console.log(logcloser);
+// }
 
 function showUserResumeSummary(result)
 {
@@ -261,28 +267,227 @@ async function updateemail()
     console.log(logcloser);
 }
 
-function hidethelogin()
+
+
+
+
+function removeToken()
 {
-    var logopener="----entering hidethelogin----";
+    var logopener="----entering removeToken----";
     console.log(logopener);
 
-    //hide or show things as per requirement.
-    var divtohide = document.getElementById("inputboxforemailandpassword");
-    divtohide.style.display = 'none';
+    //put this in local storage.
+    //may be we should put a error message
+    var setKey = "ProjectWTToken";
+    //localStorage.setItem(setKey,null);
+    //localStorage.clear(setKey);
+    localStorage.removeItem(setKey);    
 
-    var logcloser="----leaving hidethelogin----";
-    console.log(logcloser); 
+    var logcloser="----leaving removeToken----";
+    console.log(logcloser);    
 }
 
-function showthelogin()
+//we need to kill the token.
+//then load the sign in options.
+
+function signout()
 {
-    var logopener="----entering showthelogin----";
+    var logopener="----entering signout----";
     console.log(logopener);
 
-    var divtohide = document.getElementById("inputboxforemailandpassword");
-    divtohide.style.display = 'block';
+    removeToken();
 
-    var logcloser="----leaving showthelogin----";
-    console.log(logcloser); 
+    hideorshowsigninsignoutbutton(2);
+
+    // //load to the main resume display.
+    // window.location.href = 'signin.html'; 
+
+    //show the login input boxes
+    // showthelogin();
+
+    var logcloser="----leaving signout----";
+    console.log(logcloser);     
 }
+
+//check userActionWithEnteredValues for more comments and such
+const signInWithEnteredValues = async (email,password1) => 
+{
+    var logopener="----entering signInWithEnteredValues----";
+    console.log(logopener);
+
+    APIBeingProcessed();
+
+    // var POSTbody = new Object();
+    // POSTbody.username = email;
+    // POSTbody.password = password1;
+    // POSTbody.grant_type = 'password';
+    // var returnmessage = "";
+
+    // var POSTbodyinJSON = JSON.stringify(POSTbody);
+
+    var POSTbodyinPlainText = "userName=" + encodeURIComponent(email) +
+    "&password=" + encodeURIComponent(password1) +
+    "&grant_type=password";
+
+    var baseUrl = returnCurrentBaseURL();
+    var endPoint = "Token";
+    var fullUrl = baseUrl + endPoint;
+
+    const response = await fetch(fullUrl,
+        {
+            method: 'POST',
+            body : POSTbodyinPlainText,
+            headers:
+            {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        }
+        );
+    
+    if(response.status == 400)
+    {
+        // hidetheloading();
+        var errormessagefromapiserver = response.json();
+        errormessagefromapiserver.then(
+            function(result)
+            {
+                returnmessage = result.error_description;
+                console.log("signInWithEnteredValues - Error 400 - " + returnmessage);            
+                var returnobj = new MessageStatusCode(returnmessage,response.status);
+                console.log("signInWithEnteredValues - returnobj - " + returnobj.messaget + returnobj.statuscodet);                            
+                APICallFailed();
+            },
+            function(error)
+            {
+                console.log(error);
+                returnmessage = result.Message;
+                APICallFailed();
+            }
+        );
+    }
+    else if(response.status == 200)
+    {
+        APICallSuccess();
+        // hidethelogin();
+        hideorshowsigninsignoutbutton(1);
+        var responsejson = response.json();
+        responsejson.then(
+            function(result)
+            {
+                console.log("access token - " + result.access_token + " userName - " + result.userName);
+                // returnmessage = result.Message;
+                var returnobj = new MessageStatusCode("token obtained",response.status);
+                //update the local storage with token.
+                storeToken(result.access_token);
+                // console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);                            
+                // updatethescreen(returnobj);
+            },
+            function(error)
+            {
+                console.log(error);
+                returnmessage = result.Message;
+                APICallFailed();
+            }
+        );
+
+        // var errormessagefromapiserver = "all went good." + POSTbody.Email + " account successfully created";
+        // console.log("signInWithEnteredValues - " + errormessagefromapiserver);
+        // returnmessage = errormessagefromapiserver;
+        // var returnobj = new MessageStatusCode(returnmessage,response.status);
+        // console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);
+        // updatethescreen(returnobj);
+    }
+    else
+    {
+        APICallFailed();
+        var errormessagefromapiserver = "unknown error - status code - " + response.status + "contact API server developer";
+        console.log("signInWithEnteredValues - " + errormessagefromapiserver);
+        returnmessage = errormessagefromapiserver;
+        var returnobj = new MessageStatusCode(returnmessage,response.status);
+        console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);    
+        // updatethescreen(returnobj);
+    }
+    var logcloser="----leaving signInWithEnteredValues----";
+    console.log(logcloser);
+}
+
+
+
+//here, based on the flag number we will decide what to show and what to hide
+//I am sure there are better ways to do this but keeping it simple
+//this will also hide or show the hey message that comes after logging in.
+//1 means show signout and hey message
+//2 means show signin and input boxes
+function hideorshowsigninsignoutbutton(flagnumber)
+{
+    var logopener="----entering hideorshowsigninsignoutbutton----";
+    console.log(logopener);
+
+    if(flagnumber == 1)
+    {
+        //show signout and the hey message
+        var buttonsignout = 
+        document.getElementById("buttonsignout"); 
+        buttonsignout.style.display = 'block';                
+
+        var divtohide = document.getElementById("outboxforloginsuccess");
+        divtohide.style.display = 'block';        
+
+        //and hide signin and the sign in input boxes
+        var buttonsignin = 
+        document.getElementById("buttonsignin"); 
+        buttonsignin.style.display = 'none';
+
+        var divtohide = document.getElementById("inputboxforemailandpassword");
+        divtohide.style.display = 'none';        
+
+    }
+    else
+    {
+        //show sign in and input boxes 
+        var buttonsignin = 
+        document.getElementById("buttonsignin"); 
+        buttonsignin.style.display = 'block';        
+
+        var divtohide = document.getElementById("inputboxforemailandpassword");
+        divtohide.style.display = 'block';        
+        
+        //and hide sign out and the hey message
+        var buttonsignout = 
+        document.getElementById("buttonsignout"); 
+        buttonsignout.style.display = 'none';        
+
+        var divtohide = document.getElementById("outboxforloginsuccess");
+        divtohide.style.display = 'none';        
+
+    }
+
+    var logcloser="----leaving hideorshowsigninsignoutbutton----";
+    console.log(logcloser);
+}
+
+// function hidethelogin()
+// {
+//     var logopener="----entering hidethelogin----";
+//     console.log(logopener);
+
+//     //hide or show things as per requirement.
+//     var divtohide = document.getElementById("inputboxforemailandpassword");
+//     divtohide.style.display = 'none';
+
+//     var logcloser="----leaving hidethelogin----";
+//     console.log(logcloser); 
+// }
+
+// function showthelogin()
+// {
+//     var logopener="----entering showthelogin----";
+//     console.log(logopener);
+
+//     var divtohide = document.getElementById("inputboxforemailandpassword");
+//     divtohide.style.display = 'block';
+
+//     var logcloser="----leaving showthelogin----";
+//     console.log(logcloser); 
+// }
 

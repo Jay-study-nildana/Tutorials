@@ -100,16 +100,16 @@ function updatethescreen(result)
 {
     if(result.statuscodet == 200)
     {
-        //update the diplay with success stuff.
-        //show the success message
-        var divinside = 
-        document.getElementById("statusmessageafterAPIcall");
-        divinside.innerText = result.statuscodet + " " + result.messaget;
-        divinside.style.display = 'block';
-        //show the tap below text display.
-        var divtaphomebelow = 
-        document.getElementById("taphomebelow");
-        divtaphomebelow.style.display = 'block';        
+        // //update the diplay with success stuff.
+        // //show the success message
+        // var divinside = 
+        // document.getElementById("statusmessageafterAPIcall");
+        // divinside.innerText = result.statuscodet + " " + result.messaget;
+        // divinside.style.display = 'block';
+        // //show the tap below text display.
+        // var divtaphomebelow = 
+        // document.getElementById("taphomebelow");
+        // divtaphomebelow.style.display = 'block';        
         
         //hide the login boxes.
         var divinputboxforemailandpassword = 
@@ -126,7 +126,7 @@ function updatethescreen(result)
     }
 
     //also, lets reload the page
-    location.reload();
+    //location.reload();
 
 }
 
@@ -136,103 +136,7 @@ function MessageStatusCode(messaget,statuscodet)
     this.statuscodet = statuscodet;
 }
 
-//check userActionWithEnteredValues for more comments and such
-const signInWithEnteredValues = async (email,password1) => 
-{
-    var logopener="----entering signInWithEnteredValues----";
-    console.log(logopener);
 
-    showtheloading();
-
-    // var POSTbody = new Object();
-    // POSTbody.username = email;
-    // POSTbody.password = password1;
-    // POSTbody.grant_type = 'password';
-    // var returnmessage = "";
-
-    // var POSTbodyinJSON = JSON.stringify(POSTbody);
-
-    var POSTbodyinPlainText = "userName=" + encodeURIComponent(email) +
-    "&password=" + encodeURIComponent(password1) +
-    "&grant_type=password";
-
-    var baseUrl = returnCurrentBaseURL();
-    var endPoint = "Token";
-    var fullUrl = baseUrl + endPoint;
-
-    const response = await fetch(fullUrl,
-        {
-            method: 'POST',
-            body : POSTbodyinPlainText,
-            headers:
-            {
-                'Content-Type': 'application/x-www-form-urlencoded'
-            }
-        }
-        );
-    
-    if(response.status == 400)
-    {
-        hidetheloading();
-        var errormessagefromapiserver = response.json();
-        errormessagefromapiserver.then(
-            function(result)
-            {
-                returnmessage = result.error_description;
-                console.log("signInWithEnteredValues - Error 400 - " + returnmessage);            
-                var returnobj = new MessageStatusCode(returnmessage,response.status);
-                console.log("signInWithEnteredValues - returnobj - " + returnobj.messaget + returnobj.statuscodet);                            
-                updatethescreen(returnobj);
-            },
-            function(error)
-            {
-                console.log(error);
-                returnmessage = result.Message;
-            }
-        );
-    }
-    else if(response.status == 200)
-    {
-        hidetheloading();
-        var responsejson = response.json();
-        responsejson.then(
-            function(result)
-            {
-                console.log("access token - " + result.access_token + " userName - " + result.userName);
-                // returnmessage = result.Message;
-                var returnobj = new MessageStatusCode("token obtained",response.status);
-                //update the local storage with token.
-                storeToken(result.access_token);
-                // console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);                            
-                updatethescreen(returnobj);
-            },
-            function(error)
-            {
-                console.log(error);
-                returnmessage = result.Message;
-            }
-        );
-
-        // var errormessagefromapiserver = "all went good." + POSTbody.Email + " account successfully created";
-        // console.log("signInWithEnteredValues - " + errormessagefromapiserver);
-        // returnmessage = errormessagefromapiserver;
-        // var returnobj = new MessageStatusCode(returnmessage,response.status);
-        // console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);
-        // updatethescreen(returnobj);
-    }
-    else
-    {
-        hidetheloading();
-        var errormessagefromapiserver = "unknown error - status code - " + response.status + "contact API server developer";
-        console.log("signInWithEnteredValues - " + errormessagefromapiserver);
-        returnmessage = errormessagefromapiserver;
-        var returnobj = new MessageStatusCode(returnmessage,response.status);
-        console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);    
-        updatethescreen(returnobj);
-    }
-    var logcloser="----leaving signInWithEnteredValues----";
-    console.log(logcloser);
-}
 
 //this function will return the current URL
 //add your OWN URLs and switch to the one you want to 
@@ -250,16 +154,6 @@ function storeToken(tokentostore)
     //may be we should put a error message
     var setKey = "ProjectWTToken";
     localStorage.setItem(setKey,tokentostore);
-}
-
-function removeToken()
-{
-    //put this in local storage.
-    //may be we should put a error message
-    var setKey = "ProjectWTToken";
-    //localStorage.setItem(setKey,null);
-    //localStorage.clear(setKey);
-    localStorage.removeItem(setKey);
 }
 
 function getToken()
@@ -371,30 +265,30 @@ function checkforsigninpageload()
     console.log(logcloser);
 }
 
-function hidetheloading()
-{
-    var logopener="----entering hidetheloading----";
-    console.log(logopener);
+// function hidetheloading()
+// {
+//     var logopener="----entering hidetheloading----";
+//     console.log(logopener);
 
-    //hide or show things as per requirement.
-    var divtohide = document.getElementById("loadinganimation");
-    divtohide.style.display = 'none';
+//     //hide or show things as per requirement.
+//     var divtohide = document.getElementById("loadinganimation");
+//     divtohide.style.display = 'none';
 
-    var logcloser="----leaving hidetheloading----";
-    console.log(logcloser); 
-}
+//     var logcloser="----leaving hidetheloading----";
+//     console.log(logcloser); 
+// }
 
-function showtheloading()
-{
-    var logopener="----entering showtheloading----";
-    console.log(logopener);
+// function showtheloading()
+// {
+//     var logopener="----entering showtheloading----";
+//     console.log(logopener);
 
-    var divtohide = document.getElementById("loadinganimation");
-    divtohide.style.display = 'block';
+//     var divtohide = document.getElementById("loadinganimation");
+//     divtohide.style.display = 'block';
 
-    var logcloser="----leaving showtheloading----";
-    console.log(logcloser); 
-}
+//     var logcloser="----leaving showtheloading----";
+//     console.log(logcloser); 
+// }
 
 function loadresumepage()
 {
@@ -444,23 +338,7 @@ function signinpage()
     console.log(logcloser); 
 }
 
-function signout()
-{
-    //we need to kill the token.
 
-    //then load the sign in page.
-
-    var logopener="----entering signout----";
-    console.log(logopener);
-
-    removeToken();
-
-    //load to the main resume display.
-    window.location.href = 'signin.html'; 
-
-    var logcloser="----leaving signout----";
-    console.log(logcloser);     
-}
 
 function signoutcurrentresume()
 {
@@ -480,3 +358,140 @@ function signoutcurrentresume()
     console.log(logcloser);     
 }
 
+
+function pagehasloadedcommonfunctions()
+{
+    var logopener="----entering pagehasloadedcommonfunctions----";
+    console.log(logopener);
+
+    //first setup some UI elements
+    setuptitles();
+
+    var logcloser="----leaving pagehasloadedcommonfunctions----";
+    console.log(logcloser);
+}
+
+
+//This function will be called in all the HTML views
+//we set the title once here, and it gets updated easily, in the entire web app
+function setuptitles()
+{
+    var logopener="----entering setuptitles----";
+    console.log(logopener);
+
+    //get the title H1 tags
+    var maintitleline1 = document.getElementById("maintitleline1");
+    var maintitleline2 = document.getElementById("maintitleline2");
+
+    //set them with desired values.
+    let titleline1 = "bari basic tutorial demo app";
+    let titleline2 = "built using HTML, CSS and JS plus Bootstrap only";
+
+    maintitleline1.innerHTML = titleline1;
+    maintitleline2.innerHTML = titleline2;
+
+    var logcloser="----leaving setuptitles----";
+    console.log(logcloser);
+}
+
+function TokenCheckPassed()
+{
+
+    var logopener="----entering TokenCheckPassed----";
+    console.log(logopener);
+
+    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var messageafterloading = "you are already logged in. all endpoints below will work"
+    loaddisplay.innerText = messageafterloading;
+
+    var logcloser="----leaving TokenCheckPassed----";
+    console.log(logcloser);    
+    DefaultMessage();
+}
+
+function TokenCheckFailed()
+{
+
+    var logopener="----entering TokenCheckFailed----";
+    console.log(logopener);
+
+    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var messageafterloading = "you are not logged in. only non-token endpoints will work. Log in by visiting the home page"
+    loaddisplay.innerText = messageafterloading;
+
+    var logcloser="----leaving TokenCheckFailed----";
+    console.log(logcloser); 
+    DefaultMessage();   
+}
+
+function APIBeingProcessed()
+{
+
+    var logopener="----entering APIBeingProcessed----";
+    console.log(logopener);
+
+    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var messageafterloading = "still talking to the API server"
+    loaddisplay.innerText = messageafterloading;
+
+    var logcloser="----leaving APIBeingProcessed----";
+    console.log(logcloser);  
+    DefaultMessage();  
+}
+
+function APICallSuccess()
+{
+    var logopener="----entering APICallSuccess----";
+    console.log(logopener);
+
+    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var messageafterloading = "API Call was a success. results updated"
+    loaddisplay.innerText = messageafterloading;
+
+    var logcloser="----leaving APICallSuccess----";
+    console.log(logcloser);  
+    DefaultMessage();   
+}
+
+function APICallFailed()
+{
+    var logopener="----entering APICallFailed----";
+    console.log(logopener);
+
+    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var messageafterloading = "API Call was a failure. try again or contact developer!"
+    loaddisplay.innerText = messageafterloading;
+
+    var logcloser="----leaving APICallFailed----";
+    console.log(logcloser);  
+    DefaultMessage();   
+}
+
+function DefaultMessage()
+{
+    var logopener="----entering DefaultMessage----";
+    console.log(logopener);
+
+    var delayInMilliseconds = 3000; //1 second
+
+    setTimeout(function() {
+    //your code to be executed after 1 second
+    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var messageafterloading = "waiting on you to do something. thank you."
+    loaddisplay.innerText = messageafterloading;    
+
+    }, delayInMilliseconds);
+
+    var logcloser="----leaving DefaultMessage----";
+    console.log(logcloser);      
+}
+
+
+function dummycommonfunctions1()
+{
+    var logopener="----entering dummycommonfunctions1----";
+    console.log(logopener);
+
+    var logcloser="----leaving dummycommonfunctions1----";
+    console.log(logcloser);
+}

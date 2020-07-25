@@ -18,20 +18,18 @@
   </head>
   <body class="text-center" onload="pagehasloaded()">
     <div class="form-signin">
-        <div>
-          <!-- <img class="mb-4" src="assets/logosandstuff/bootstrap-solid.svg" alt="" width="72" height="72">           -->
-          <h1 class="h3 mb-3 font-weight-normal">Bari Basics Programming</h1>
-          <!-- <h1 class="h3 mb-3 font-weight-normal">project wt</h1> -->
-          <h1 class="h3 mb-3 font-weight-normal">sample web app</h1> 
-        </div>
+      <div id="maintitlelines">
+        <h3 id = "maintitleline1" class="font-weight-normal">-</h3>
+        <h7 id = "maintitleline2" class="font-weight-normal">-</h7>
+      </div>
         <hr>
         <div>
-            <p  id="pageloadedtokencheck">...loading</p>
+            <p  id="apistatusmessage">...loading</p>
         </div>
         <hr>
+        <p class="text-success">Check if the API server is working by using the below buttons</p>
+        <hr>        
         <div>
-            <p>this button does a test check. to see if the API server is working. also, this checks if the web app is working in terms of javascript test</p>
-            <p>works without token or signing in</p>
             <button id = "buttonTestService" class="btn btn-lg btn-primary btn-block" onclick="buttonTestService()" >Test Service - Without Token</button>          
         </div>        
         <hr>     
@@ -44,14 +42,14 @@
         </div>    
         <hr>          
         <div id="buttonTestServiceResults">
-
+          <p class="text-primary">API call results will come below. scroll down for more.</p>
         </div>  
       <hr>             
-        <div>
-            <p class="mt-5 mb-3 text-muted"><a href="apiservicedemo.html" >API home</a></p>
-            <p class="mt-5 mb-3 text-muted"><a href="../index.html" >web app home</a></p>
-            <p class="mt-5 mb-3 text-muted"><a href="http://thechalakas.com/" >contact</a></p>
-        </div>
+      <div id="bottomlinksfooter">
+        <p class="text-muted"><a href="apiservicedemo.html" >API home</a> | <a href="registration.html" >register</a></p>
+        <p class="text-muted"><a href="../index.html" >web app home</a> | <a href="http://thechalakas.com/" >contact</a></p>
+        <!-- <p class="text-muted"><a href="http://thechalakas.com/" >contact</a></p> -->
+      </div>
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>

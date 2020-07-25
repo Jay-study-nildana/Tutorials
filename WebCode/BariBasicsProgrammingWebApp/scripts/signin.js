@@ -315,6 +315,8 @@ const signInWithEnteredValues = async (email,password1) =>
     var logopener="----entering signInWithEnteredValues----";
     console.log(logopener);
 
+    //show status message that we have begun API processing. 
+
     APIBeingProcessed();
 
     // var POSTbody = new Object();
@@ -355,13 +357,15 @@ const signInWithEnteredValues = async (email,password1) =>
                 console.log("signInWithEnteredValues - Error 400 - " + returnmessage);            
                 var returnobj = new MessageStatusCode(returnmessage,response.status);
                 console.log("signInWithEnteredValues - returnobj - " + returnobj.messaget + returnobj.statuscodet);                            
-                APICallFailed();
+                APICallFailedPasswordOrLoginIssue();
+                clearouttheinputboxes();                
             },
             function(error)
             {
                 console.log(error);
                 returnmessage = result.Message;
                 APICallFailed();
+                clearouttheinputboxes();                
             }
         );
     }
@@ -381,12 +385,15 @@ const signInWithEnteredValues = async (email,password1) =>
                 storeToken(result.access_token);
                 // console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);                            
                 // updatethescreen(returnobj);
+                clearouttheinputboxes();                
+
             },
             function(error)
             {
                 console.log(error);
                 returnmessage = result.Message;
                 APICallFailed();
+                clearouttheinputboxes();                
             }
         );
 
@@ -406,6 +413,7 @@ const signInWithEnteredValues = async (email,password1) =>
         var returnobj = new MessageStatusCode(returnmessage,response.status);
         console.log("signInWithEnteredValues - returnobj" + returnobj.messaget + returnobj.statuscodet);    
         // updatethescreen(returnobj);
+        clearouttheinputboxes();        
     }
     var logcloser="----leaving signInWithEnteredValues----";
     console.log(logcloser);
@@ -464,6 +472,45 @@ function hideorshowsigninsignoutbutton(flagnumber)
 
     var logcloser="----leaving hideorshowsigninsignoutbutton----";
     console.log(logcloser);
+}
+
+function clearouttheinputboxes()
+{
+    var logopener="----entering clearouttheinputboxes----";
+    console.log(logopener);    
+
+    //collect the email address and password.
+    var emailaddress = document.getElementById("inputEmail");
+    var password = document.getElementById("inputPassword");
+
+    //we cannot use like this set attribute. 
+    //we are setting value. 
+    //check this for more details
+    //https://codepen.io/jay-pancodu/pen/oNbVrVV
+    //https://stackoverflow.com/questions/63085528/input-box-never-clears-but-works-fine-on-codepen
+
+    // emailaddress.setAttribute('value', "");
+    // password.setAttribute('value', "");
+
+    emailaddress.value = "";
+    password.value = "";
+
+    var logcloser="----leaving clearouttheinputboxes----";
+    console.log(logcloser);    
+}
+
+function APICallFailedPasswordOrLoginIssue()
+{
+    var logopener="----entering APICallFailedPasswordOrLoginIssue----";
+    console.log(logopener);
+
+    var loaddisplay = document.getElementById("apistatusmessage");
+    var messageafterloading = "Looks like a password or login email address issue. Check and try again";
+    loaddisplay.innerText = messageafterloading;
+
+    var logcloser="----leaving APICallFailedPasswordOrLoginIssue----";
+    console.log(logcloser);  
+    DefaultMessage();   
 }
 
 // function hidethelogin()

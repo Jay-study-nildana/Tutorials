@@ -23,10 +23,9 @@
         <h3 id = "maintitleline1" class="font-weight-normal">-</h3>
         <h7 id = "maintitleline2" class="font-weight-normal">-</h7>
       </div>
-
+      <hr>      
     <div id="inputboxforemailandpassword">
       <!-- <h1 class="h3 mb-3 font-weight-normal">sign in below</h1> -->
-      <hr>      
       <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
       <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
       <!-- <label for="inputPassword" class="sr-only">Password</label> -->
@@ -43,9 +42,9 @@
       <div class="alert alert-danger" role="alert">
         You have successfully signed in! Welcome back.
       </div>
-      <hr>
-    </div>    
-    <div id="pageloadedtokencheck">
+    </div>  
+    <hr>  
+    <div id="apistatusmessage">
       <p>loading...</p>
     </div>    
     <!-- <div id = "statusmessageafterAPIcall" class="alert alert-danger" role="alert">
@@ -75,9 +74,7 @@
             <hr>
           </div>
         </div>
-
       </div>
-
     </div>
     <button id = "buttonsignin" class="btn btn-lg btn-primary btn-block" onclick="signin()" >
       sign in
@@ -85,6 +82,7 @@
     <button id = "buttonsignout" class="btn btn-lg btn-primary btn-block" onclick="signout()">
       sign out
     </button>    
+    <p>dont have a account? Register <a href="registration.html" class="alert-link">here</a></p>       
     <hr>
     <!-- TODO13   generate the footer dynamically in common functions so we can add new items at one go -->
     <div id="bottomlinksfooter">
@@ -92,8 +90,6 @@
       <p class="text-muted"><a href="../index.html" >web app home</a> | <a href="http://thechalakas.com/" >contact</a></p>
       <!-- <p class="text-muted"><a href="http://thechalakas.com/" >contact</a></p> -->
     </div>
-
-
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>

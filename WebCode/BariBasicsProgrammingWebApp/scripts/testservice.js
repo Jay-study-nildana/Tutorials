@@ -1,3 +1,44 @@
+function pagehasloaded()
+{
+    var logopener="----entering pagehasloaded----";
+    console.log(logopener);
+
+    //first setup some UI elements
+    setuptitles();   
+    
+    DefaultMessage();
+    
+    TokenStuff();
+
+    var logcloser="----leaving pagehasloaded----";
+    console.log(logcloser);
+}
+
+function TokenStuff()
+{
+    var logopener="----entering TokenStuff----";
+    console.log(logopener);
+
+    //check if local storage has a token.
+    var getCurrentToken = getToken();
+
+    if(getCurrentToken!=null)
+    {
+        console.log("You are already signed in");
+        //send token and try to get the basic resume information.
+        //hide the login page.
+        TokenCheckPassed();
+    }
+    else
+    {
+        console.log("You need to sign in below");
+        TokenCheckFailed();
+    }    
+    
+    var logcloser="----leaving TokenStuff----";
+    console.log(logcloser);    
+}
+
 async function buttonTestServiceAuthorized()
 {
     var logopener="----entering buttonTestServiceAuthorized----";
@@ -13,6 +54,7 @@ async function buttonTestServiceAuthorized()
     if(getCurrentToken == null)
     {
         TokenCheckFailed();
+        return;
     }
 
     const response = await fetch(fullUrl,
@@ -44,7 +86,7 @@ async function buttonTestServiceAuthorized()
             function(error)
             {
                 console.log(error);
-                TokenCheckFailed();
+                APICallFailed();
             }
         );
     }
@@ -56,8 +98,6 @@ async function buttonTestServiceAuthorized()
     var logcloser="----leaving buttonTestServiceAuthorized----";
     console.log(logcloser);
 }
-
-
 
 async function buttonTestService()
 {
@@ -85,7 +125,7 @@ async function buttonTestService()
     if(response.status == 400)
     {
         console.log("unknown error - " + response.status);
-        TokenCheckFailed();
+        APICallFailed();
     }
     else if(response.status == 200)
     {
@@ -100,7 +140,7 @@ async function buttonTestService()
             function(error)
             {
                 console.log(error);
-                TokenCheckFailed();
+                APICallFailed();
             }
         );
     }
@@ -112,8 +152,6 @@ async function buttonTestService()
     var logcloser="----leaving buttonTestService----";
     console.log(logcloser);
 }
-
-
 
 function ShowbuttonTestServiceResponse(result)
 {
@@ -162,6 +200,7 @@ async function buttonTestServiceUserDetails()
     if(getCurrentToken == null)
     {
         TokenCheckFailed();
+        return;
     }    
 
     const response = await fetch(fullUrl,
@@ -235,31 +274,6 @@ function ShowbuttonTestServiceUserDetailsResponse(result)
 }
 
 
-function pagehasloaded()
-{
-    var logopener="----entering pagehasloaded----";
-    console.log(logopener);
-   
-    //check if local storage has a token.
-    var getCurrentToken = getToken();
-
-    if(getCurrentToken!=null)
-    {
-        console.log("You are already signed in");
-        //send token and try to get the basic resume information.
-        //hide the login page.
-        TokenCheckPassed();
-    }
-    else
-    {
-        console.log("You need to sign in below");
-        TokenCheckFailed();
-    }
-
-    var logcloser="----leaving pagehasloaded----";
-    console.log(logcloser);
-    DefaultMessage();
-}
 
 // var entirenamep = document.getElementById("entirename");
 // var fullname = result.FirstName + " " + result.MiddleName + " " + result.LastName;

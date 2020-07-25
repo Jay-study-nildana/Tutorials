@@ -1,3 +1,8 @@
+//IMPORTANT NOTE 
+//this was one of the original files. DO NOT DELETE ANYTHING FROM THIS FILE
+//NOT EVEN COMMENTS
+//DONT CLEAN THIS FILE UP
+
 //this file contains the common functions used by other files. 
 
 //this creates a user with some entered values.
@@ -98,6 +103,10 @@ const userActionWithEnteredValues = async (email,password1,password2) =>
 //this is to update the display.
 function updatethescreen(result)
 {
+
+    var logopener="----entering updatethescreen----";
+    console.log(logopener);    
+
     if(result.statuscodet == 200)
     {
         // //update the diplay with success stuff.
@@ -125,15 +134,22 @@ function updatethescreen(result)
         divinside.style.display = 'block';
     }
 
-    //also, lets reload the page
-    //location.reload();
+    var logcloser="----leaving updatethescreen----";
+    console.log(logcloser);
 
 }
 
 function MessageStatusCode(messaget,statuscodet)
 {
+
+    var logopener="----entering MessageStatusCode----";
+    console.log(logopener);
+
     this.messaget = messaget;
     this.statuscodet = statuscodet;
+
+    var logcloser="----leaving MessageStatusCode----";
+    console.log(logcloser);    
 }
 
 
@@ -142,22 +158,42 @@ function MessageStatusCode(messaget,statuscodet)
 //add your OWN URLs and switch to the one you want to 
 function returnCurrentBaseURL()
 {
+
+    var logopener="----entering returnCurrentBaseURL----";
+    console.log(logopener);
+
     var hostUrl1 = "https://baribasicsapiserverjune21st2020.azurewebsites.net/";
     var hostUrl2 = "http://localhost:64674/";
     var currentUrl = hostUrl1;
+
+    var logcloser="----leaving returnCurrentBaseURL----";
+    console.log(logcloser);
+
     return currentUrl;
+
+    
 }
 
 function storeToken(tokentostore)
 {
+
+    var logopener="----entering storeToken----";
+    console.log(logopener);
     //put this in local storage.
     //may be we should put a error message
     var setKey = "ProjectWTToken";
     localStorage.setItem(setKey,tokentostore);
+
+    var logcloser="----leaving storeToken----";
+    console.log(logcloser);
 }
 
 function getToken()
 {
+
+    var logopener="----entering getToken----";
+    console.log(logopener);
+
     var setKey = "ProjectWTToken";
     var notokenfoundmessage = "getToken - "+ "no token stored. you have to login";
     var tokentoreturn = localStorage.getItem(setKey);
@@ -165,6 +201,9 @@ function getToken()
     {
         console.log(notokenfoundmessage);
     }
+
+    var logcloser="----leaving getToken----";
+    console.log(logcloser);
     return tokentoreturn;
 }
 
@@ -338,8 +377,6 @@ function signinpage()
     console.log(logcloser); 
 }
 
-
-
 function signoutcurrentresume()
 {
     //we need to kill the token.
@@ -357,7 +394,6 @@ function signoutcurrentresume()
     var logcloser="----leaving signoutcurrentresume----";
     console.log(logcloser);     
 }
-
 
 function pagehasloadedcommonfunctions()
 {
@@ -400,7 +436,7 @@ function TokenCheckPassed()
     var logopener="----entering TokenCheckPassed----";
     console.log(logopener);
 
-    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var loaddisplay = document.getElementById("apistatusmessage");
     var messageafterloading = "you are already logged in. all endpoints below will work"
     loaddisplay.innerText = messageafterloading;
 
@@ -415,7 +451,7 @@ function TokenCheckFailed()
     var logopener="----entering TokenCheckFailed----";
     console.log(logopener);
 
-    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var loaddisplay = document.getElementById("apistatusmessage");
     var messageafterloading = "you are not logged in. only non-token endpoints will work. Log in by visiting the home page"
     loaddisplay.innerText = messageafterloading;
 
@@ -430,7 +466,7 @@ function APIBeingProcessed()
     var logopener="----entering APIBeingProcessed----";
     console.log(logopener);
 
-    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var loaddisplay = document.getElementById("apistatusmessage");
     var messageafterloading = "still talking to the API server"
     loaddisplay.innerText = messageafterloading;
 
@@ -444,7 +480,7 @@ function APICallSuccess()
     var logopener="----entering APICallSuccess----";
     console.log(logopener);
 
-    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var loaddisplay = document.getElementById("apistatusmessage");
     var messageafterloading = "API Call was a success. results updated"
     loaddisplay.innerText = messageafterloading;
 
@@ -458,7 +494,7 @@ function APICallFailed()
     var logopener="----entering APICallFailed----";
     console.log(logopener);
 
-    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var loaddisplay = document.getElementById("apistatusmessage");
     var messageafterloading = "API Call was a failure. try again or contact developer!"
     loaddisplay.innerText = messageafterloading;
 
@@ -476,7 +512,7 @@ function DefaultMessage()
 
     setTimeout(function() {
     //your code to be executed after 1 second
-    var loaddisplay = document.getElementById("pageloadedtokencheck");
+    var loaddisplay = document.getElementById("apistatusmessage");
     var messageafterloading = "waiting on you to do something. thank you."
     loaddisplay.innerText = messageafterloading;    
 
@@ -485,7 +521,6 @@ function DefaultMessage()
     var logcloser="----leaving DefaultMessage----";
     console.log(logcloser);      
 }
-
 
 function dummycommonfunctions1()
 {

@@ -152,8 +152,6 @@ function MessageStatusCode(messaget,statuscodet)
     console.log(logcloser);    
 }
 
-
-
 //this function will return the current URL
 //add your OWN URLs and switch to the one you want to 
 function returnCurrentBaseURL()
@@ -528,5 +526,68 @@ function dummycommonfunctions1()
     console.log(logopener);
 
     var logcloser="----leaving dummycommonfunctions1----";
+    console.log(logcloser);
+}
+
+//CRUD related token stuff checking. 
+
+function TokenStuffCRUD()
+{
+    var logopener="----entering TokenStuffCRUD----";
+    console.log(logopener);
+
+    //check if local storage has a token.
+    var getCurrentToken = getToken();
+
+    if(getCurrentToken!=null)
+    {
+        console.log("You are already signed in");
+        //send token and try to get the basic resume information.
+        //hide the login page.
+        TokenCheckPassed();
+        //logged in so, show the education form. 
+        hideorshowCRUDDIV(1);
+
+    }
+    else
+    {
+        console.log("You need to sign in below");
+        TokenCheckFailed();
+        //not logged in so, hide the education form. 
+        hideorshowCRUDDIV(0);        
+    }    
+    
+    var logcloser="----leaving TokenStuffCRUD----";
+    console.log(logcloser);    
+}
+
+function hideorshowCRUDDIV(flagnumber)
+{
+    var logopener="----entering hideorshowCRUDDIV----";
+    console.log(logopener);
+
+    var CRUDDIV = 
+    document.getElementById("educationdisplay");     
+
+    var CRUDNOTLOGGEDMESSAGE = 
+    document.getElementById("notsignedin");         
+
+    if(flagnumber == 1)
+    {
+        //show the education form. 
+        CRUDDIV.style.display = 'block';                
+        //hide the not signed in message
+        CRUDNOTLOGGEDMESSAGE.style.display = 'none';        
+    }
+    else
+    {
+        //hide the education form. 
+        CRUDDIV.style.display = 'none';                
+        //show the not signed in message
+        CRUDNOTLOGGEDMESSAGE.style.display = 'block';        
+
+    }
+
+    var logcloser="----leaving hideorshowCRUDDIV----";
     console.log(logcloser);
 }

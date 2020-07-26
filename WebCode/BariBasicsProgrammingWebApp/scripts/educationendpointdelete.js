@@ -1,3 +1,9 @@
+//this whole thing was built using the educationendpointupdate.js file
+//so some words may be similar to those. please ignore any unchanged variable and function names
+
+//TODO we need to setup this tool for this web app
+//https://www.selenium.dev/documentation/en/
+
 function pagehasloadededucation()
 {
     var logopener="----entering pagehasloadededucation----";
@@ -8,7 +14,7 @@ function pagehasloadededucation()
     pagehasloaded();
 
     //check for token and accordingly show or hide display
-    TokenStuffCRUD();
+    TokenStuffCRUD();    
 
     //now get all education details 
 
@@ -165,25 +171,25 @@ function displayeducationdetails(result)
         tempp6.setAttributeNode(attclass);          
         currentDiv.appendChild(tempp6);            
 
-        // //we need a button to update.
-        // var tempbutton = document.createElement("button"); 
-        // //lets add the attributes.   
-        // var attclass = document.createAttribute("class");
-        // attclass.value = "btn btn-lg btn-primary btn-block";            
-        // //for the button I want to keep the GUID directly as the ID
-        // var attid = document.createAttribute("id");
-        // attid.value = tempitem.UniqueGuid;
-        // //want to display for the button as well.
-        // tempbutton.innerText = "update education"
-        // //lets attach the attributes to the DOM element in question
-        // tempbutton.setAttributeNode(attid);             
-        // tempbutton.setAttributeNode(attclass);              
+        //we need a button to delete.
+        var tempbutton = document.createElement("button"); 
+        //lets add the attributes.   
+        var attclass = document.createAttribute("class");
+        attclass.value = "btn btn-lg btn-primary btn-block";            
+        //for the button I want to keep the GUID directly as the ID
+        var attid = document.createAttribute("id");
+        attid.value = tempitem.UniqueGuid;
+        //want to display for the button as well.
+        tempbutton.innerText = "delete education"
+        //lets attach the attributes to the DOM element in question
+        tempbutton.setAttributeNode(attid);             
+        tempbutton.setAttributeNode(attclass);              
         
-        // //lets setup the click function.
-        // tempbutton.addEventListener('click', function(){
-        //     updateeducation();
-        // });            
-        // currentDiv.appendChild(tempbutton);             
+        //lets setup the click function.
+        tempbutton.addEventListener('click', function(){
+            deleteeducation();
+        });            
+        currentDiv.appendChild(tempbutton);             
 
         //add a divider line
         var temphr = document.createElement("hr");
@@ -254,34 +260,18 @@ async function GetEducationalDetails()
 }
 
 //-----------------------------------------------
-//for the education update related stuff
+//for the education delete related stuff
 //-----------------------------------------------
 
-function updateeducation()
-{
-    var logopener="----entering updateeducation----";
-    console.log(logopener);
-
-    //lets get the id. 
-    console.log("UniqueGuid is " + event.target.id);
-
-    //we have the id. now, we need to do a post call to update it. 
-    var tempbutton = event.target;
-
-    apiworkeducationupdate(tempbutton);
-    
-    var logcloser="----leaving updateeducation----";
-    console.log(logcloser);
-}
 
 //take the unique id
 //collect the information in the input boxes
-//make the post call to perform the udpate
+//make the post call to perform the delete
 //do a get call and get the latest information.
 //update the display aka the placeholders with the new information
-async function apiworkeducationupdate(tempbutton)
+async function apiworkeducationdelete(tempbutton)
 {
-    var logopener="----entering apiworkeducationupdate----";
+    var logopener="----entering apiworkeducationdelete----";
     console.log(logopener);
 
     APIBeingProcessed();
@@ -299,19 +289,20 @@ async function apiworkeducationupdate(tempbutton)
     var tempinputbox6 = document.getElementById(tempbutton.id+"EducationOtherNotes2");
     var tempenteredvalue6 = tempinputbox6.value;
 
+    //the delete endpoint body has only one thing. 
     var POSTbody = new Object();
-    POSTbody.EducationTitle = tempenteredvalue1;
-    POSTbody.InstituationName = tempenteredvalue2;
-    POSTbody.YearOfGraduation = tempenteredvalue3;
-    POSTbody.PassGrade = tempenteredvalue4;
-    POSTbody.EducationOtherNotes1 = tempenteredvalue5;
-    POSTbody.EducationOtherNotes2 = tempenteredvalue6;
+    // POSTbody.EducationTitle = tempenteredvalue1;
+    // POSTbody.InstituationName = tempenteredvalue2;
+    // POSTbody.YearOfGraduation = tempenteredvalue3;
+    // POSTbody.PassGrade = tempenteredvalue4;
+    // POSTbody.EducationOtherNotes1 = tempenteredvalue5;
+    // POSTbody.EducationOtherNotes2 = tempenteredvalue6;
     POSTbody.UniqueGuid = tempbutton.id;
 
     var POSTbodyinJSON = JSON.stringify(POSTbody);   
 
     var baseUrl = returnCurrentBaseURL();
-    var endPoint = "api/UserandResume/UpdateEducationalDetails";
+    var endPoint = "api/UserandResume/DeleteEducationalDetails";
     var fullUrl = baseUrl + endPoint;
     var getCurrentToken = getToken();
 
@@ -340,20 +331,15 @@ async function apiworkeducationupdate(tempbutton)
             function(result)
             {
                 console.log(result);
-                tempbutton.value="";
-                tempinputbox1.setAttribute("placeholder",tempenteredvalue1);
-                tempinputbox1.value = tempenteredvalue1;
-                tempinputbox2.setAttribute("placeholder",tempenteredvalue2);
-                tempinputbox2.value = tempenteredvalue2;
-                tempinputbox3.setAttribute("placeholder",tempenteredvalue3);
-                tempinputbox3.value = tempenteredvalue3;
-                tempinputbox4.setAttribute("placeholder",tempenteredvalue4);
-                tempinputbox4.value = tempenteredvalue4;
-                tempinputbox5.setAttribute("placeholder",tempenteredvalue5);
-                tempinputbox5.value = tempenteredvalue5;
-                tempinputbox6.setAttribute("placeholder",tempenteredvalue6);
-                tempinputbox6.value = tempenteredvalue6;                                                                                               
-                tempbutton.innerText = "update education";
+                //removed successfully
+                var currentDiv = document.getElementById("educationdisplay");                
+                //empty the div
+                currentDiv.innerHTML = "";
+                //reload the div with fresh data
+                GetEducationalDetails();        
+                //TODO, we already have the data on the screen. can we just remove the 
+                //specific entry that was deleted? 
+                //Or, is it better to reload as we get the most updated data from the server        
             },
             function(error)
             {
@@ -382,7 +368,24 @@ async function apiworkeducationupdate(tempbutton)
         APICallFailed(); 
     }
 
-    var logcloser="----leaving apiworkeducationupdate----";
+    var logcloser="----leaving apiworkeducationdelete----";
     console.log(logcloser);
 }
 
+//lets delete this education 
+function deleteeducation()
+{
+    var logopener="----entering deleteeducation----";
+    console.log(logopener);
+
+    //lets get the id. 
+    console.log("UniqueGuid is " + event.target.id);
+
+    //we have the id. now, we need to do a post call to update it. 
+    var tempbutton = event.target;
+
+    apiworkeducationdelete(tempbutton);
+    
+    var logcloser="----leaving deleteeducation----";
+    console.log(logcloser);
+}

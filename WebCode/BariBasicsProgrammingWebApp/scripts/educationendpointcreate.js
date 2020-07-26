@@ -7,6 +7,9 @@ function pagehasloadededucation()
 
     pagehasloaded();
 
+    //check for token and accordingly show or hide display
+    TokenStuffCRUD();    
+
     //load the form
     loadthecreateeducationform();
 
@@ -16,6 +19,10 @@ function pagehasloadededucation()
 
 function loadthecreateeducationform()
 {
+
+    var logopener="----entering pagehasloadededucation----";
+    console.log(logopener);
+
     var currentDiveducationdisplay = document.getElementById("educationdisplay");
 
     //the new add option.
@@ -163,8 +170,11 @@ function loadthecreateeducationform()
         addeducation();
     });            
     currentDiveducationdisplay.appendChild(tempbutton);                      
-}
+    
+    var logcloser="----leaving pagehasloadededucation----";
+    console.log(logcloser);
 
+}
 
 async function addeducation()
 {

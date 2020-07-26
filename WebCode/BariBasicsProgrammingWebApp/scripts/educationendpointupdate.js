@@ -1,3 +1,29 @@
+//TODO
+//we do have a status message that comes when the API is called to update the entries
+//the problem is, the update form is spread throughout the page.
+//so, the first update shows the status message
+//but the rest of the udpates, cannot see the status message. 
+
+function pagehasloadededucation()
+{
+    var logopener="----entering pagehasloadededucation----";
+    console.log(logopener);
+
+    //first call the standard page load 
+
+    pagehasloaded();
+
+    //check for token and accordingly show or hide display
+    TokenStuffCRUD();    
+
+    //now get all education details 
+
+    GetEducationalDetails();
+
+    var logcloser="----leaving pagehasloadededucation----";
+    console.log(logcloser);
+}
+
 function displayeducationdetails(result)
 {
 
@@ -366,19 +392,4 @@ async function apiworkeducationupdate(tempbutton)
     console.log(logcloser);
 }
 
-function pagehasloadededucation()
-{
-    var logopener="----entering pagehasloadededucation----";
-    console.log(logopener);
 
-    //first call the standard page load 
-
-    pagehasloaded();
-
-    //now get all education details 
-
-    GetEducationalDetails();
-
-    var logcloser="----leaving pagehasloadededucation----";
-    console.log(logcloser);
-}

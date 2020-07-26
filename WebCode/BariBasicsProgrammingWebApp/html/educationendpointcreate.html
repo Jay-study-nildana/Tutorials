@@ -18,24 +18,26 @@
   </head>
   <body class="text-center" onload="pagehasloadededucation()">
     <div class="form-signin">
-        <div>
-          <!-- <img class="mb-4" src="assets/logosandstuff/bootstrap-solid.svg" alt="" width="72" height="72">           -->
-          <h1 class="h3 mb-3 font-weight-normal">Bari Basics Programming</h1>
-          <!-- <h1 class="h3 mb-3 font-weight-normal">project wt</h1> -->
-          <h1 class="h3 mb-3 font-weight-normal">sample web app</h1> 
-        </div>
+      <div id="maintitlelines">
+        <h3 id = "maintitleline1" class="font-weight-normal">-</h3>
+        <h7 id = "maintitleline2" class="font-weight-normal">-</h7>
+      </div>
         <div>
           <p  id="apistatusmessage">...loading</p>
         </div>
         <hr>      
         <div id="educationdisplay" class="alert alert-danger" role="alert">
         </div>
+        <div id="notsignedin" class="alert alert-danger" role="alert">
+          <p class="text-primary">You are not signed in</p>          
+        </div>        
         <hr>        
-        <div>
-          <p class="mt-5 mb-3 text-muted"><a href="apiservicedemo.html" >API home</a></p>
-          <p class="mt-5 mb-3 text-muted"><a href="../index.html" >web app home</a></p>
-          <p class="mt-5 mb-3 text-muted"><a href="http://thechalakas.com/" >contact</a></p>
-      </div>
+        <div id="bottomlinksfooter">
+          <p class="text-muted"><a href="apiservicedemo.html" >API home</a> | <a href="registration.html" >register</a>
+            | <a href="signin.html" >sign in</a></p>
+          <p class="text-muted"><a href="../index.html" >web app home</a> | <a href="http://thechalakas.com/" >contact</a></p>
+          <!-- <p class="text-muted"><a href="http://thechalakas.com/" >contact</a></p> -->
+        </div>
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>

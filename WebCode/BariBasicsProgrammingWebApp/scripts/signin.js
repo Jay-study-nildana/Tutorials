@@ -267,10 +267,6 @@ async function updateemail()
     console.log(logcloser);
 }
 
-
-
-
-
 function removeToken()
 {
     var logopener="----entering removeToken----";
@@ -418,8 +414,6 @@ const signInWithEnteredValues = async (email,password1) =>
     var logcloser="----leaving signInWithEnteredValues----";
     console.log(logcloser);
 }
-
-
 
 //here, based on the flag number we will decide what to show and what to hide
 //I am sure there are better ways to do this but keeping it simple

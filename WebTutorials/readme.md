@@ -1,12 +1,12 @@
 # Tutorials - Bari Basic - Web Programming (Scroll down for Table of Contents)
 
-Hello and Welcome. Scroll below for more details.
+Hello and Welcome.
 
-* Work Diary Timeline and Other Updates Linked to Dates - [Work Diary](workdiary.md)
-* While practising, you will need some ready to use content and images. find images here - [images](https://github.com/Jay-study-nildana/Tutorials/tree/master/OtherStuff/sampleimages). find content here - [content](https://github.com/Jay-study-nildana/Tutorials/tree/master/OtherStuff/samplecontent)
-* template to use for visual studio code - [vs code template](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
-* template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
-* fully built demo - [web app](https://baribasicswebappjune23rd2020.azurewebsites.net) 
+* While practising, you will need some ready to use content and images. 
+* Find images here - [images](https://github.com/Jay-study-nildana/Tutorials/tree/master/OtherStuff/sampleimages).
+* Find content here - [content](https://github.com/Jay-study-nildana/Tutorials/tree/master/OtherStuff/samplecontent).
+* Template to use for codepen - [codepen template](https://codepen.io/jay-pancodu/pen/wvKrepW)
+* Fully built demo - [web app](https://baribasicswebappjune23rd2020.azurewebsites.net) 
 
 # social media 
 

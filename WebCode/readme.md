@@ -2,6 +2,12 @@
 
 All our example code will come here. 
 
+# Demo Web App
+
+The main focus here is the demo web app. This app is the ultimate and final project of the ongoing tutorials and learning community at [baribasic.com](https://baribasic.com/).
+
+Find the [code and more details here](BariBasicsProgrammingWebApp). 
+
 # GLOBAL TAGS USED
 
 * TODO - all kind of standard TODO things to do. 
@@ -12,10 +18,6 @@ All our example code will come here.
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
 
-# About Us
+# About
 
-Our company name is Suvashna. We are a small software training and development based out of Hyderbad and Mysore, India. 
-
-Learn more about us here - [Suvashna Training and Development](https://suvashna.com)
-
-Learn more about our Founder and Chief Developer here - [Jay](http://thechalakas.com)
+Owner and Developer of this project - [Jay](http://thechalakas.com)

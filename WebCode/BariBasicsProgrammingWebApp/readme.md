@@ -1,6 +1,6 @@
 # Bari Basics Programming Web App
 
-This is a simple app that is used to demonstrate all the basic web app skills that were learnt in these basic web programming tutorials.
+This app is the ultimate and final project of the ongoing tutorials and learning community at [baribasic.com](https://baribasic.com/).
 
 You can see it in action here - https://baribasicswebappjune23rd2020.azurewebsites.net 
 
@@ -12,11 +12,8 @@ Here is a list of things the app does, all the while, consuming the API mentione
 * login to the account
 * add new entries of education
 * update existing entries of education
+* delete existing entries of education
 * see the education entries already added
-
-# missing feature
-
-If you check the API code, linked below, you will notice that the API used currently does not allow deleting of entries. Hence, the web app, does not have any feature to delete entries related to education.
 
 # Primary Focus
 

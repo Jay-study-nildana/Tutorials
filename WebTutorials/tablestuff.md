@@ -32,19 +32,6 @@ as always, check the linked codepen to see a table in action.
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)
 
-# Code Repositories
-
-* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/table/)
-* [coderepo - to use from repository](../WebCode/table/)
-
-# Packages Used 
-
-* [notyetupdated](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
-
 # TRIVIA 
 
 * sure, lets put some trivia here.

@@ -47,18 +47,6 @@ Paths and other things matter when you working locally using visual studio code 
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)
 
-# Code Repositories
-
-* [notyetupdated](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/)
-
-# Packages Used 
-
-* [notrequired](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
-
 # TRIVIA 
 
 * sure, lets put some trivia here.

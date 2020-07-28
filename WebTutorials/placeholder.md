@@ -4,6 +4,25 @@ This is just a placeholder page. if you reached here via a link, that means, the
 
 "Life, Uh, Finds a Way" - Dr. Ian Malcolm.
 
+# CodePen Links
+
+* [JavaScript Basic](https://codepen.io/jay-pancodu/pen/MWKwmez)
+
+# Video Links
+
+* [notyetupdated](Link)
+
+# Podcast Links
+
+* [notyetupdated](Link)
+
+# Reference Materials Used 
+
+* [notyetupdated](Link)
+* [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+* [W3 Schools](https://www.w3schools.com)
+* [Get Coding!](https://getcodingkids.com/missions/)
+
 # TRIVIA 
 
 * sure, lets put some trivia here.
@@ -19,10 +38,6 @@ This is just a placeholder page. if you reached here via a link, that means, the
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
 
-# About Us
+# About
 
-Our company name is Suvashna. We are a small software training and development based out of Hyderbad and Mysore, India. 
-
-Learn more about us here - [Suvashna Training and Development](https://suvashna.com)
-
-Learn more about our Founder and Chief Developer here - [Jay](http://thechalakas.com)
+Owner and Developer of this project - [Jay](http://thechalakas.com)

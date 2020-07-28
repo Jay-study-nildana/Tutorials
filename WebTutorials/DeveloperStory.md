@@ -40,19 +40,6 @@ That is my story.
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)
 
-# Code Repositories
-
-* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/foldername/)
-* [coderepo - to use from repository](../WebCode/foldername/)
-
-# Packages Used 
-
-* [notyetupdated](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
-
 # TRIVIA 
 
 * sure, lets put some trivia here.

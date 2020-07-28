@@ -1,10 +1,12 @@
-# ChapterTitleandIntro
+# Placeholder
 
-LetPutSomeStuffHere.
+This is just a placeholder page. if you reached here via a link, that means, the page is linked but not ready yet.
+
+"Life, Uh, Finds a Way" - Dr. Ian Malcolm.
 
 # CodePen Links
 
-* [notyetupdated](Link)
+* [JavaScript Basic](https://codepen.io/jay-pancodu/pen/MWKwmez)
 
 # Video Links
 
@@ -20,19 +22,6 @@ LetPutSomeStuffHere.
 * [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)
-
-# Code Repositories
-
-* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/foldername/)
-* [coderepo - to use from repository](../WebCode/foldername/)
-
-# Packages Used 
-
-* [notyetupdated](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
 
 # TRIVIA 
 

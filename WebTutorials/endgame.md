@@ -40,9 +40,6 @@ So, I hope, that gives you an idea what we are trying to do here.
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)
 
-# Code Repositories
-
-* [Project WT Simple API Server Repo](https://github.com/Jay-study-nildana/ProjectWTPublicRepos/tree/master/ProjectCRUD)
 
 # TRIVIA 
 

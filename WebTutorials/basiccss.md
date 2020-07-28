@@ -38,19 +38,6 @@ Still, check the linked codepen below for some essential CSS usage.
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)
 
-# Code Repositories
-
-* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/basic-css) 
-* [coderepo - to use from repository](../WebCode/basic-css/)
-
-# Packages Used 
-
-* [notyetupdated](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
-
 # TRIVIA 
 
 * sure, lets put some trivia here.

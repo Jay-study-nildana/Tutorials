@@ -37,18 +37,6 @@ If you dont want to use CodePen, then, we would recommend the following tools th
 * [W3 Schools](https://www.w3schools.com)
 * [Get Coding!](https://getcodingkids.com/missions/)
 
-# Code Repositories
-
-* [suvashna-template-for-tutorials](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/suvashna-template-for-tutorials)
-
-# Packages Used 
-
-* [notyetupdated](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
-
 # TRIVIA 
 
 * sure, lets put some trivia here.

@@ -1,4 +1,15 @@
-# Basic JS
+# Hello World - HTML, CSS, JS with Bootstrap
+
+In this chapter, I am going to explain the basic concepts about JavaScript. Primarily, I discuss the important role played by JavaScript. 
+
+# TLDR 
+
+* Get a quick intro to HTML, CSS and Bootstrap
+* Also see JavaScript in action
+* head over to this [Codepen to see the code in action.](https://codepen.io/jay-pancodu/pen/MWKwmez)
+* head over to this [Video to see the explanation](https://codepen.io/jay-pancodu/pen/MWKwmez)
+
+# More Details
 
 HTML gives you content. CSS and Bootstrap gives you styling. JavaScript is what makes all these things run, and make your web app...work!
 
@@ -32,41 +43,6 @@ As always, look at the linked codepen below, to see how this works.
 # Video Links
 
 * [notyetupdated](Link)
-
-# Podcast Links
-
-* [notyetupdated](Link)
-
-# Reference Materials Used 
-
-* [notyetupdated](Link)
-* [Mozilla MDN - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
-* [W3 Schools](https://www.w3schools.com)
-* [Get Coding!](https://getcodingkids.com/missions/)
-
-# Code Repositories
-
-* [coderepo](https://github.com/Jay-study-nildana/Tutorials/tree/master/WebCode/javascript-basic/)
-* [coderepo - to use from repository](../WebCode/javascript-basic/)
-
-# Packages Used 
-
-* [notyetupdated](Link)
-
-# Developer Tip 
-
-* watch out for this tag - DEVELOPERTIP - throughout the code for some daily developer tips.
-
-# TRIVIA 
-
-* sure, lets put some trivia here.
-* and some more, eh?
-
-# GLOBAL TAGS USED
-
-* TODO - all kind of standard TODO things to do. 
-* DEVELOPERTIP - tips for developers.
-* SECRETANDSTRINGS69 - places where secrets like API keys and other things are stored. use this add and remove secrets before committing code publicly. private repos is okay but team members trust must be considered based on company policy. 
 
 # important note 
 

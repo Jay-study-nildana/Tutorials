@@ -1,6 +1,6 @@
 # Tutorials - Bari Basic
 
-head over here for the our main [bari basic online textbook](WebTutorials)
+head over here for the our main [web app development online textbook](WebTutorials)
 
 # social media 
 

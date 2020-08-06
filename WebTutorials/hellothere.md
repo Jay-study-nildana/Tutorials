@@ -2,11 +2,17 @@
 
 Welcome to the very first chapter of our web tutorial. This is just a quick note to get you started. Hope you find this textbook useful. 
 
+# TLDR
+
+The bullet points
+
+* This textbook is for complete beginners who know nothing about web app development or programming or HTML or CSS or JavaScript or Bootstrap.
+* I have put together a simple [web app](https://github.com/Jay-study-nildana/ProjectWTPublicRepos/tree/master/apps/BariBasicsProgrammingWebApp). I want to teach you how to build that in the shortest possible time.
+* That's it. 
+
 # Philoshophy and Approach
 
 Now, lets go over our philosophy and approach to training in this textbook, and by extension. This will be boring but we request you to go through in full.
-
-TODO - put a video explaining our philosophy for those who dont like to read. 
 
 So, here, we go. Chapter Flow - in every chapter, you will find a few common things.
 

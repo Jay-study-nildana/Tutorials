@@ -1,6 +1,8 @@
-# How To Use Visual Studio Code?
+# How To Use CodePen?
 
 I cannot explain this in words. Just watch [our video here]().
+
+https://codepen.io/jay-pancodu/pen/wvGBWPe
 
 # important note 
 

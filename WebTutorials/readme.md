@@ -8,23 +8,22 @@ Using this tutorial, you should be able to learn how to build a quick, simple we
 
 1. Hello World
     1. [Hello There](hellothere.md)
-    1. [How To Use CodePen?](howtocodepen.md)(inprogress)
-    1. [How To Use Visual Studio Code?](howtovscode.md)(inprogress)    
-    1. [Hello World - HTML, CSS, JS with Bootstrap](basicjs.md)(inprogress)    
+    1. [How To Use CodePen?](howtocodepen.md)
+    1. [How To Use Visual Studio Code?](howtovscode.md)
+    1. [Hello World - HTML, CSS, JS with Bootstrap](basicjs.md)
 1. JavaScript 
-    1. [Statements](Statements.md)(notreadyyet)
-    1. [Loops](Loops.md)(notreadyyet)
-    1. [Functions](Functions.md)(notreadyyet)
-    1. [Events](Events.md)(notreadyyet)            
-    1. [Objects](Objects.md)(notreadyyet)
+    1. [Statements](Statements.md)
+    1. [Loops](Loops.md)
+    1. [Functions](Functions.md)
+    1. [Events](Events.md)
+    1. [Objects](Objects.md)
 1. API, JSON, Postman and curl
-    1. [API](API.md)(notreadyyet)
-    1. [Fetching data](Asynchronous.md)(notreadyyet)    
+    1. [API](API.md)
+    1. [Fetching data]
 1. Let's build our demo web app.
-    1. [Lets do this thing](fullwebapp.md)(inprogress)
+    1. [Lets do this thing]
 1. Thank You and Next?
     1. [what next?](whatnext.md)(notreadyyet)    
-    1. [additional material](additionalmaterial.md)(notreadyyet)        
 
 # Reference Materials Used 
 

@@ -16,16 +16,16 @@ Building an app happens in stages.
 note - the video link shows you the video of me building the stages.
 note - the github has the complete project, as it should look, at the completion of respective stage.
 
-* Stage 1 - Project Structure and Landing Page. [Video]().[GitHub]().
-* Stage 2 - Register Page 
-* Stage 3 - Sign In Page
-* Stage 4 - API Landing Page
-* Stage 5 - The Test EndPoints - Both Of Them
-* Stage 6 - API Create EndPoint
-* Stage 7 - API Read EndPoint
-* Stage 8 - API Update EndPoint
-* Stage 9 - API Delete EndPoint
-* Stage 10 - Deployment and Wrap up
+* Stage 1 - Project Structure and Landing Page. [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_1).
+* Stage 2 - Register Page [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_2).
+* Stage 3 - Sign In Page [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_3).
+* Stage 4 - API Landing Page [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_4).
+* Stage 5 - The Test EndPoints - Both Of Them [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_5).
+* Stage 6 - API Create EndPoint [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_6).
+* Stage 7 - API Read EndPoint [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_7).
+* Stage 8 - API Update EndPoint [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_8).
+* Stage 9 - API Delete EndPoint [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Stage_9).
+* Stage 10 - Deployment and Wrap up [Video]().[GitHub](https://github.com/Jay-study-nildana/tutorialfullwebappstages/blob/master/deployment.md).
 
 # important note 
 

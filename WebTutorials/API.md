@@ -1,6 +1,10 @@
 # API
 
-In this chapter, I am mostly talking about API servers (and not the [API's](https://developer.mozilla.org/en-US/docs/Web/API) that are available within JavaScript)
+In this chapter, I am mostly talking about API servers (and not the [API's](https://developer.mozilla.org/en-US/docs/Web/API) that are available within JavaScript) that serve data to web and mobile apps using JSON.
+
+[back to table of contents](../readme.md)
+
+# some details
 
 There are dozens of technologies that can be used to deliver data from servers to clients. In our case, the client is the web app, running on the web browser. 
 
@@ -18,6 +22,10 @@ Its usually a good idea to try out the API server and its endpoints using Swagge
 You could just watch [our video here]() on how to use Swagger.
 You could just watch [our video here]() on how to use Postman.
 You could just watch [our video here]() on how to use Curl.
+
+# tiny note on JSON
+
+JSON is a platform agnostic data exchange format. That means, once you have an API server that serves data using JSON, it can be consumed by pretty much any web app, mobile app, gaming device, desktop app and almost any kind of app that understands JSON. 
 
 # important note 
 

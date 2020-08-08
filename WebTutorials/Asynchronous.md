@@ -6,6 +6,8 @@ Check out the [codepen here](https://codepen.io/jay-pancodu/pen/wvGBWPe)
 
 But, if you want some explanations, read below.
 
+[back to table of contents](../readme.md)
+
 # short explanation
 
 The thing about making a web api call, is that, it is going to be asynchronous call.

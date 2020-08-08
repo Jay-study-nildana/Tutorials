@@ -6,6 +6,8 @@ Check out the [codepen here](https://codepen.io/jay-pancodu/pen/QWNwEgO)
 
 But, if you want some explanations, read below.
 
+[back to table of contents](../readme.md)
+
 # short explanation
 
 In JavaScript, every variable is an object. I cannot go into a lenghty explanation about objects here. That will a too deep concept to discuss.

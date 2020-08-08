@@ -2,6 +2,8 @@
 
 In this chapter, I am going to explain the basic concepts about JavaScript. Primarily, I discuss the important role played by JavaScript. 
 
+[back to table of contents](../readme.md)
+
 # TLDR 
 
 * Get a quick intro to HTML, CSS and Bootstrap

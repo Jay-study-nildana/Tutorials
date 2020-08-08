@@ -6,6 +6,8 @@ Check out the [codepen here](https://codepen.io/jay-pancodu/pen/jOqErOw)
 
 But, if you want some explanations, read below.
 
+[back to table of contents](../readme.md)
+
 # short explanation
 
 You know, how, in english, you have sentences? This is one sentence. Here is another sentence. And, one more. 

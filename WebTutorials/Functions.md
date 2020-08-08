@@ -6,6 +6,8 @@ Check out the [codepen here](https://codepen.io/jay-pancodu/pen/VwaYjmw)
 
 But, if you want some explanations, read below.
 
+[back to table of contents](../readme.md)
+
 # short explanation
 
 A function is like a box that does something specific. If you have a TV in your home, it has a remote. The remote has one specific function. To interact with your TV.

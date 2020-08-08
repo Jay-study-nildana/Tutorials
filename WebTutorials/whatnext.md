@@ -2,7 +2,13 @@
 
 If you are here, I am hoping, you are here because you finished all the chapters, and actually built the project i tried to teach you. 
 
+[back to table of contents](../readme.md)
+
+# congragulations!
+
 First up, congragulations. 
+
+# next up
 
 Second, here are a few things I would recommend you do.
 

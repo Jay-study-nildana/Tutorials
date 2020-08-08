@@ -6,6 +6,8 @@ Check out the [codepen here](https://codepen.io/jay-pancodu/pen/rNeaLyq)
 
 But, if you want some explanations, read below.
 
+[back to table of contents](../readme.md)
+
 # short explanation
 
 a website is an interactive experience. That is why, these days, we use the word app more and website less. In an app, just like in real life, everything is based around events. 

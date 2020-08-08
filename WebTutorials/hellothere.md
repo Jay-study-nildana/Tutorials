@@ -30,12 +30,6 @@ Now, the important thing is, you dont need to know and go through all of the abo
 
 Its really up to you, how you to learn and solve the problem of learning. Our job here is to give you all the options. 
 
-# GLOBAL TAGS USED
-
-* TODO - all kind of standard TODO things to do. 
-* DEVELOPERTIP - tips for developers.
-* SECRETANDSTRINGS69 - places where secrets like API keys and other things are stored. use this add and remove secrets before committing code publicly. private repos is okay but team members trust must be considered based on company policy. 
-
 # important note 
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.

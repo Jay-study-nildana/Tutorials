@@ -1,8 +1,8 @@
-# Tutorials - Bari Basic - Web Programming (Scroll down for Table of Contents)
+# Tutorials - Bari Basic - Web Programming
 
 Welcome to our basic web app building and learning tutorial. 
 
-Using this tutorial, you should be able to learn how to build a quick, simple web [like this one](https://github.com/Jay-study-nildana/ProjectWTPublicRepos/tree/master/apps/BariBasicsProgrammingWebApp).
+Using this tutorial, you should be able to learn how to build a quick, simple web [like this one](https://baribasicswebappjune23rd2020.azurewebsites.net).
 
 # Table Of Contents
 
@@ -19,11 +19,11 @@ Using this tutorial, you should be able to learn how to build a quick, simple we
     1. [Objects](Objects.md)
 1. API, JSON, Postman and curl
     1. [API](API.md)
-    1. [Fetching data]
+    1. [Fetching data](Asynchronous.md)
 1. Let's build our demo web app.
-    1. [Lets do this thing]
+    1. [Lets do this thing](fullwebapp.md)
 1. Thank You and Next?
-    1. [what next?](whatnext.md)(notreadyyet)    
+    1. [what next?](whatnext.md)   
 
 # Reference Materials Used 
 

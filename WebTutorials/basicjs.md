@@ -36,14 +36,6 @@ When using JavaScript you will run into the following main things.
 
 As always, look at the linked codepen below, to see how this works. 
 
-# CodePen Links
-
-* [JavaScript Basic](https://codepen.io/jay-pancodu/pen/MWKwmez)
-
-# Video Links
-
-* [notyetupdated](Link)
-
 # important note 
 
 This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.

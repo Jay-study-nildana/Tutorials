@@ -19,10 +19,6 @@ Using this tutorial, you should be able to learn how to build a quick, simple we
     1. [Objects](Objects.md)(notreadyyet)
 1. API, JSON, Postman and curl
     1. [API](API.md)(notreadyyet)
-    1. [JSON](JSON.md)(notreadyyet)
-    1. [Swagger](Swagger.md)(notreadyyet)            
-    1. [Postman](Postman.md)(notreadyyet)
-    1. [curl](curl.md)(notreadyyet)        
     1. [Fetching data](Asynchronous.md)(notreadyyet)    
 1. Let's build our demo web app.
     1. [Lets do this thing](fullwebapp.md)(inprogress)

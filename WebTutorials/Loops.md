@@ -6,7 +6,7 @@ Check out the [codepen here](https://codepen.io/jay-pancodu/pen/NWNPrGp)
 
 But, if you want some explanations, read below.
 
-[back to table of contents](../readme.md)
+[back to table of contents](readme.md)
 
 # short explanation
 

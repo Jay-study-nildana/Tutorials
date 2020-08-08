@@ -2,7 +2,7 @@
 
 I cannot explain this in words. Just watch [our video here]().
 
-[back to table of contents](../readme.md)
+[back to table of contents](readme.md)
 
 # important note 
 

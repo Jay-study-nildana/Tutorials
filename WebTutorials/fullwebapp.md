@@ -2,7 +2,7 @@
 
 This is it. The final flamingo. 
 
-[back to table of contents](../readme.md)
+[back to table of contents](readme.md)
 
 # Prequisites
 

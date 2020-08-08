@@ -2,7 +2,7 @@
 
 In this chapter, I am mostly talking about API servers (and not the [API's](https://developer.mozilla.org/en-US/docs/Web/API) that are available within JavaScript) that serve data to web and mobile apps using JSON.
 
-[back to table of contents](../readme.md)
+[back to table of contents](readme.md)
 
 # some details
 

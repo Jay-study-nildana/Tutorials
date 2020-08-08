@@ -2,7 +2,7 @@
 
 Welcome to the very first chapter of our web tutorial. This is just a quick note to get you started. Hope you find this textbook useful. 
 
-[back to table of contents](../readme.md)
+[back to table of contents](readme.md)
 
 # TLDR
 

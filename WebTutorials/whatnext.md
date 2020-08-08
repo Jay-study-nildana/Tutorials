@@ -2,7 +2,7 @@
 
 If you are here, I am hoping, you are here because you finished all the chapters, and actually built the project i tried to teach you. 
 
-[back to table of contents](../readme.md)
+[back to table of contents](readme.md)
 
 # congragulations!
 

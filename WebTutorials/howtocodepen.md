@@ -1,5 +1,7 @@
 # How To Use CodePen?
 
+We have a tutorial template. [Click here](https://codepen.io/pen?template=wvKrepW) to automatically create a new Pen based on our tutorial template.
+
 I cannot explain this in words. Just watch [our video here]().
 
 [back to table of contents](readme.md)

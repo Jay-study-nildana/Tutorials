@@ -4,6 +4,10 @@ Welcome to the very first chapter of our web tutorial. This is just a quick note
 
 [back to table of contents](readme.md)
 
+# PDF
+
+You can find the [companion PDF here](https://github.com/Jay-study-nildana/Tutorials/blob/master/BootCamp/PPTPDFs/Bari%20Basic%20-%20Web%20Programming%20-%20Boot%20Camp%20-%20Chapter%201%20-%20Hello%20There%20.pdf).
+
 # TLDR
 
 The bullet points

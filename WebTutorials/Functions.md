@@ -1,10 +1,6 @@
 # Functions
 
-You could just watch [our video here]().
-
 Check out the [codepen here](https://codepen.io/jay-pancodu/pen/VwaYjmw)
-
-But, if you want some explanations, read below.
 
 [back to table of contents](readme.md)
 
@@ -41,8 +37,6 @@ A function usually has the following things.
 
 # important note 
 
-This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
+This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
-# About
-
-Owner and Developer of this project - [Jay](http://thechalakas.com)
+I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)

@@ -1,6 +1,10 @@
-# API
+# API - JSON data servers
 
-In this chapter, I am mostly talking about API servers (and not the [API's](https://developer.mozilla.org/en-US/docs/Web/API) that are available within JavaScript) that serve data to web and mobile apps using JSON.
+In this chapter, I am mostly talking about API servers that serve data to web and mobile apps using JSON.
+
+Note: This should not be confused with [API's](https://developer.mozilla.org/en-US/docs/Web/API) that are available within JavaScript
+
+Check our [full web app](fullwebapp.md) on code related to consuming API servers.
 
 [back to table of contents](readme.md)
 
@@ -19,18 +23,12 @@ API servers usually have the following features.
 
 Its usually a good idea to try out the API server and its endpoints using Swagger or Postman or CURL before using the API in your code.
 
-You could just watch [our video here]() on how to use Swagger.
-You could just watch [our video here]() on how to use Postman.
-You could just watch [our video here]() on how to use Curl.
-
 # tiny note on JSON
 
 JSON is a platform agnostic data exchange format. That means, once you have an API server that serves data using JSON, it can be consumed by pretty much any web app, mobile app, gaming device, desktop app and almost any kind of app that understands JSON. 
 
 # important note 
 
-This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
+This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
-# About
-
-Owner and Developer of this project - [Jay](http://thechalakas.com)
+I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)

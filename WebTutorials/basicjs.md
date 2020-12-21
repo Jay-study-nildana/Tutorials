@@ -4,14 +4,26 @@ In this chapter, I am going to explain the basic concepts about JavaScript. Prim
 
 [back to table of contents](readme.md)
 
-# TLDR 
 
-* Get a quick intro to HTML, CSS and Bootstrap
-* Also see JavaScript in action
-* head over to this [Codepen to see the code in action.](https://codepen.io/jay-pancodu/pen/MWKwmez)
-* head over to this [Video to see the explanation](https://codepen.io/jay-pancodu/pen/MWKwmez)
+# Download Sample Code
 
-# More Details
+First, you need to download our sample code. 
+
+[direct download link](https://github.com/Jay-study-nildana/tutorialfullwebappstages/archive/master.zip)
+
+[GitHub Repository](https://github.com/Jay-study-nildana/tutorialfullwebappstages)
+
+
+# Test Your Computer Setup
+
+Before we start, first step is to make sure, your computer is ready to run JavaScript.
+
+* Open the sample code you downloaded above. 
+* inside, you have a folder called "Test_Your_Computer_Setup"
+* run that on your computer. if you see a happy message, then you are all ready. 
+* If you did not get NOT get a happy message, go through [Getting Ready](https://medium.com/projectwt/getting-ready-for-your-coding-boot-camp-classes-c44d7f24d16b) again. See if you missed something.
+
+# HTML and JavaScript Explanation - You can skip this if you want.
 
 HTML gives you content. CSS and Bootstrap gives you styling. JavaScript is what makes all these things run, and make your web app...work!
 
@@ -36,12 +48,8 @@ When using JavaScript you will run into the following main things.
 * Functions - modules that help do something specific. you have built in fuctions (like alert()) and you also write your own functions
 * Events - triggered as part of the web app life cycle. You decide to react to the events that help your app do its work.
 
-As always, look at the linked codepen below, to see how this works. 
-
 # important note 
 
-This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
+This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
-# About
-
-Owner and Developer of this project - [Jay](http://thechalakas.com)
+I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)

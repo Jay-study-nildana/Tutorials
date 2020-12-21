@@ -1,10 +1,8 @@
 # Fetching data from API server
 
-You could just watch [our video here]().
-
 Check out the [codepen here](https://codepen.io/jay-pancodu/pen/wvGBWPe)
 
-But, if you want some explanations, read below.
+Check our [full web app](fullwebapp.md) on code related to consuming API servers.
 
 [back to table of contents](readme.md)
 
@@ -83,8 +81,6 @@ In most cases, the most important would be response.status == 200. This means, t
 
 # important note 
 
-This code is provided as is without any warranties. It's primarily meant for our own use. Feel free to use this code as it pleases you.
+This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
-# About
-
-Owner and Developer of this project - [Jay](http://thechalakas.com)
+I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)

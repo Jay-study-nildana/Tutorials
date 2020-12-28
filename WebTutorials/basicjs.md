@@ -2,25 +2,25 @@
 
 In this chapter, I am going to explain the basic concepts about JavaScript. Primarily, I discuss the important role played by JavaScript. 
 
-[back to table of contents](readme.md)
+Further, you will also test and make sure your computer is ready for web programming.
 
+[back to table of contents](readme.md)
 
 # Download Sample Code
 
 First, you need to download our sample code. 
 
-[direct download link](https://github.com/Jay-study-nildana/tutorialfullwebappstages/archive/master.zip)
+* [direct download link](https://github.com/Jay-study-nildana/tutorialfullwebappstages/archive/master.zip)
 
-[GitHub Repository](https://github.com/Jay-study-nildana/tutorialfullwebappstages)
-
+* [GitHub Repository](https://github.com/Jay-study-nildana/tutorialfullwebappstages) (Recommended Option)
 
 # Test Your Computer Setup
 
 Before we start, first step is to make sure, your computer is ready to run JavaScript.
 
 * Open the sample code you downloaded above. 
-* inside, you have a folder called "Test_Your_Computer_Setup"
-* run that on your computer. if you see a happy message, then you are all ready. 
+* inside, you have a folder called "Test_Your_Computer_Setup". [GitHub link for this specific folder](https://github.com/Jay-study-nildana/tutorialfullwebappstages/tree/master/Test_Your_Computer_Setup)
+* run that on your computer. if you see a happy message, then you are all ready. Running instructions are available in that folder.
 * If you did not get NOT get a happy message, go through [Getting Ready](https://medium.com/projectwt/getting-ready-for-your-coding-boot-camp-classes-c44d7f24d16b) again. See if you missed something.
 
 # HTML and JavaScript Explanation - You can skip this if you want.
